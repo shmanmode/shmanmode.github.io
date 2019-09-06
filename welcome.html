@@ -1,11 +1,27 @@
 <!DOCKTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 <meta charset = "UTF-8">
 <title>Login Page</title>
+<script>
+function myFunction() {
+   if (!sessionStorage.user_id) {
+   //alert("session not created");
+      window.location.replace("index.html");
+    } 
+}
+</script>
+<script>
+function logout1() {
+  sessionStorage.clear();
+ 
+      window.location.replace("index.html");
+} 
+</script>
 </head>
-
-<body>
+<body onload="myFunction()">
 <h1>welcome </h1>
-</body>
-</html>
+<p><button onclick="logout1()" type="button">Logout</button></p>
+
+</body> 
