@@ -1,19 +1,53 @@
 <!DOCKTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 <meta charset = "UTF-8">
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquerysession.js"></script>
+    <script src="js/site.js"></script>
 <title>Login Page</title>
+<script>
+function myFunction() {
+   if (sessionStorage.user_id) {
+      window.location.replace("welcome.html");
+    } else{
+	window.location.replace("index.html");
+}
+}
+</script>
 </head>
 
-<body>
-<form action="welcome.html" method="post">
+<body onload="myFunction()">
+<form action="./welcome.html" method="post" >
   User ID:<br>
-  <input type="text" name="userid" >
+  <input type="text" name="userid" id="userid" required>
   <br>
   Password:<br>
-  <input name="password" type="password">
+  <input name="password" type="password" required >
   <br><br>
-  <input type="submit" value="Submit">
+  <input type="submit"  onclick="return check(this.form)" value="Submit">
 </form> 
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == form.password.value)
+{
+if (typeof(Storage) !== "undefined") {
+    //if (sessionStorage.clickcount1) {
+      sessionStorage.user_id = form.userid.value;
+    //} 
+	return true;
+  } 
+	
+}
+else
+{
+	alert("Enter same UserId and Password")
+	return false;
+}
+}
+</script>
 </body>
 </html>
