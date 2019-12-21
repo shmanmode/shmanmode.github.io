@@ -17,7 +17,11 @@
 	<meta name='robots' content='noindex,noarchive' />
 	<meta name='referrer' content='strict-origin-when-cross-origin' />
 		<meta name="viewport" content="width=device-width" />
-		</head>
+	<link rel="icon" href="./wp-content/uploads/2019/12/cropped-icon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="./wp-content/uploads/2019/12/cropped-icon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="./wp-content/uploads/2019/12/cropped-icon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="./wp-content/uploads/2019/12/cropped-icon-1-270x270.png" />
+	</head>
 	<body class="login no-js login-action-login wp-core-ui  locale-en-us">
 	<script type="text/javascript">
 		document.body.className = document.body.className.replace('no-js','js');

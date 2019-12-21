@@ -11,15 +11,354 @@
 	<title>Uncategorized &#8211; WebTutplus</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
-	<description>Gaurav Manmode</description>
-	<lastBuildDate>Mon, 16 Dec 2019 19:47:59 +0000</lastBuildDate>
+	<description>We are people trying to make web development and programming easy for you.</description>
+	<lastBuildDate>Sat, 21 Dec 2019 17:37:45 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2019/12/cropped-icon-1-32x32.png</url>
+	<title>Uncategorized &#8211; WebTutplus</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
+		<title>hello shubham</title>
+		<link>./../../../2019/12/21/hello-shubham/index.html</link>
+				<comments>./../../../2019/12/21/hello-shubham/index.html#respond</comments>
+				<pubDate>Sat, 21 Dec 2019 17:37:45 +0000</pubDate>
+		<dc:creator><![CDATA[root]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=60</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[]]></content:encoded>
+							<wfw:commentRss>./../../../2019/12/21/hello-shubham/feed/index.html</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Android Native: Fetching ArrayList data in RecyclerView</title>
+		<link>./../../../2019/12/21/android-native-fetching-arraylist-data-in-recyclerview/index.html</link>
+				<comments>./../../../2019/12/21/android-native-fetching-arraylist-data-in-recyclerview/index.html#respond</comments>
+				<pubDate>Sat, 21 Dec 2019 16:05:53 +0000</pubDate>
+		<dc:creator><![CDATA[root]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=28</guid>
+				<description><![CDATA[(Flexible user Interface that adapts to different screen configurations) Introduction In this tutorial, we will see how to load images and texts from ArrayList to the RecyclerView list. Similar to displaying items as a list, displaying items as a Grid is simple using RecyclerView. In this tutorial, we are going to display images and text &#8230; <p class="link-more"><a href="./../../../2019/12/21/android-native-fetching-arraylist-data-in-recyclerview/index.html" class="more-link">Continue reading<span class="screen-reader-text"> "Android Native: Fetching ArrayList data in RecyclerView"</span></a></p>]]></description>
+								<content:encoded><![CDATA[
+<p>(Flexible user Interface that adapts to different screen configurations)</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="./../../../wp-content/uploads/2019/12/22-1-576x1024.png" alt="" class="wp-image-35" width="452" height="804" srcset="./../../../wp-content/uploads/2019/12/22-1-576x1024.png 576w, ./../../../wp-content/uploads/2019/12/22-1-169x300.png 169w, ./../../../wp-content/uploads/2019/12/22-1-768x1365.png 768w, ./../../../wp-content/uploads/2019/12/22-1-864x1536.png 864w, ./../../../wp-content/uploads/2019/12/22-1.png 1080w" sizes="(max-width: 452px) 100vw, 452px" /></figure>
+
+
+
+<h2><strong>Introduction</strong></h2>
+
+
+
+<p><em>In this tutorial, we will see how to load images and texts from ArrayList to the RecyclerView list. Similar to displaying items as a list, displaying items as a Grid is simple using RecyclerView. In this tutorial, we are going to display images and text as Grid using RecyclerView.</em></p>
+
+
+
+<p><em>This project has a flexible user interface that adapts to different screen configurations</em></p>
+
+
+
+<p><strong>Step 1</strong></p>
+
+
+
+<p><strong>Creating a Project-&nbsp;</strong>Here I have created an Android Studio project with package&nbsp;<strong>zomato</strong>&nbsp;also Activity as MainActivity and layout as activity_main.</p>
+
+
+
+<p><strong>Step 2</strong></p>
+
+
+
+<p><strong>Permissions Required- A</strong>dd Internet Permission in the android manifest file.<br>&lt;uses-permission android:name=”android.permission.INTERNET”/&gt;</p>
+
+
+
+<p><strong>Step 3</strong></p>
+
+
+
+<p><strong>Adding Dependencies-&nbsp;</strong>Add Dependencies in apps build.gradle<br>implementation ‘com.android.support:cardview-v7:28.0.0’<br>implementation ‘com.android.support:recyclerview-v7:28.0.0’<br>implementation ‘com.squareup.picasso:picasso:2.5.2’</p>
+
+
+
+<p><strong>Step 4</strong></p>
+
+
+
+<p><strong><em>activity_main.xml-&nbsp;</em></strong>This layout is Linearlayout having RecyclerView.</p>
+
+
+
+<pre class="wp-block-preformatted">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"&gt;
+
+    &lt;android.support.v7.widget.RecyclerView
+        android:id="@+id/card_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" /&gt;
+
+&lt;/android.support.design.widget.CoordinatorLayout&gt;
+</pre>
+
+
+
+<p><strong>Step 5</strong></p>
+
+
+
+<p>create a new layout Resource file<a rel="noreferrer noopener" href="https://gist.github.com/shmanmode/0f27a8e201b1a74565100b4a0c98442d" target="_blank"><strong><em>raw_layout.xml</em></strong></a><strong><em>.&nbsp;</em></strong>This UI is Linearlayout consists of many Linearlayout having ImageViews and TextViews.</p>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<figure class="wp-block-gallery columns-2 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="./../../../wp-content/uploads/2019/12/33-4.jpeg" alt="" data-id="44" data-full-url="./../../../wp-content/uploads/2019/12/33-4.jpeg" data-link="./../../../index.html?attachment_id=44" class="wp-image-44" srcset="./../../../wp-content/uploads/2019/12/33-4.jpeg 549w, ./../../../wp-content/uploads/2019/12/33-4-300x107.jpeg 300w" sizes="(max-width: 549px) 100vw, 549px" /></figure></li><li class="blocks-gallery-item"><figure><img src="./../../../wp-content/uploads/2019/12/44-4.jpeg" alt="" data-id="45" data-full-url="./../../../wp-content/uploads/2019/12/44-4.jpeg" data-link="./../../../index.html?attachment_id=45" class="wp-image-45" srcset="./../../../wp-content/uploads/2019/12/44-4.jpeg 550w, ./../../../wp-content/uploads/2019/12/44-4-300x115.jpeg 300w" sizes="(max-width: 550px) 100vw, 550px" /></figure></li></ul></figure>
+</div></div>
+
+
+
+<pre class="wp-block-code"><code>&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/lineborder_set"
+        android:orientation="horizontal">
+
+        &lt;RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="2"
+            android:gravity="bottom|end">
+
+            &lt;ImageView
+                android:id="@+id/hotel_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/food" />
+
+            &lt;TextView
+                android:id="@+id/textView5"
+                android:layout_width="46dp"
+                android:layout_height="47dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/discount_corner"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="50%   OFF"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            &lt;TextView
+                android:id="@+id/textView7"
+                style="@style/AppThemeCoupancodeTextSize"
+                android:layout_width="88dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@+id/textView5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/coupancode_corner"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="USE CODE: ZOMATONEW"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold" />
+
+        &lt;/RelativeLayout>
+
+        &lt;LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            &lt;LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                &lt;TextView
+                    android:id="@+id/id_hotel_name"
+                    style="@style/AppThemeHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="Imperio Restaurent"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                &lt;TextView
+                    android:id="@+id/id_hotel_rating"
+                    style="@style/AppThemeHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:background="@drawable/rating_corner"
+                    android:gravity="center"
+                    android:text=" 4.1"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold" />
+            &lt;/LinearLayout>
+
+            &lt;LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_set"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                &lt;TextView
+                    android:id="@+id/id_hotel_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text=" North Indian, Arabian, Mughlai, Birya..." />
+            &lt;/LinearLayout>
+
+            &lt;LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_set"
+                android:orientation="horizontal">
+
+                &lt;ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    app:srcCompat="@drawable/rupee" />
+
+                &lt;TextView
+                    android:id="@+id/id_hotel_cost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:text="400 per person" />
+
+            &lt;/LinearLayout>
+
+            &lt;LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+                &lt;LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    &lt;ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        app:srcCompat="@drawable/location" />
+
+                    &lt;TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="Live Tracking" />
+                &lt;/LinearLayout>
+
+                &lt;LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    &lt;ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        app:srcCompat="@drawable/ic_motorcycle" />
+
+                    &lt;TextView
+                        android:id="@+id/id_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text=" 20-30 Mins" />
+                &lt;/LinearLayout>
+
+            &lt;/LinearLayout>
+        &lt;/LinearLayout>
+    &lt;/LinearLayout>
+
+&lt;/LinearLayout></code></pre>
+]]></content:encoded>
+							<wfw:commentRss>./../../../2019/12/21/android-native-fetching-arraylist-data-in-recyclerview/feed/index.html</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
 		<title>Hello world!</title>
 		<link>./../../../2019/12/16/hello-world/index.html</link>
 				<comments>./../../../2019/12/16/hello-world/index.html#comments</comments>
@@ -33,7 +372,7 @@
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 							<wfw:commentRss>./../../../2019/12/16/hello-world/feed/index.html</wfw:commentRss>
-		<slash:comments>1</slash:comments>
+		<slash:comments>2</slash:comments>
 							</item>
 	</channel>
 </rss>

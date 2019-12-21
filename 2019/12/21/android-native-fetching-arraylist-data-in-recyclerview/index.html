@@ -6,13 +6,13 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
-<title>root &#8211; WebTutplus</title>
+<title>Android Native: Fetching ArrayList data in RecyclerView &#8211; WebTutplus</title>
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
-<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Feed" href="./../../feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Comments Feed" href="./../../comments/feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Posts by root Feed" href="./feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Feed" href="./../../../../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Comments Feed" href="./../../../../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Android Native: Fetching ArrayList data in RecyclerView Comments Feed" href="./feed/index.html" />
 		<script>
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":".\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.1"}};
 			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -31,33 +31,40 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='./../../wp-includes/css/dist/block-library/style.min.css?ver=5.3.1' media='all' />
-<link rel='stylesheet' id='wp-block-library-theme-css'  href='./../../wp-includes/css/dist/block-library/theme.min.css?ver=5.3.1' media='all' />
-<link rel='stylesheet' id='dashicons-css'  href='./../../wp-includes/css/dashicons.min.css?ver=5.3.1' media='all' />
-<link rel='stylesheet' id='everest-forms-general-css'  href='./../../wp-content/plugins/everest-forms/assets/css/everest-forms.css?ver=1.5.10' media='all' />
+	<link rel='stylesheet' id='wp-block-library-css'  href='./../../../../wp-includes/css/dist/block-library/style.min.css?ver=5.3.1' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='./../../../../wp-includes/css/dist/block-library/theme.min.css?ver=5.3.1' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='./../../../../wp-includes/css/dashicons.min.css?ver=5.3.1' media='all' />
+<link rel='stylesheet' id='everest-forms-general-css'  href='./../../../../wp-content/plugins/everest-forms/assets/css/everest-forms.css?ver=1.5.10' media='all' />
 <link rel='stylesheet' id='twentyseventeen-fonts-css'  href='https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&#038;subset=latin%2Clatin-ext&#038;display=fallback' media='all' />
-<link rel='stylesheet' id='twentyseventeen-style-css'  href='./../../wp-content/themes/twentyseventeen/style.css?ver=20190507' media='all' />
-<link rel='stylesheet' id='twentyseventeen-block-style-css'  href='./../../wp-content/themes/twentyseventeen/assets/css/blocks.css?ver=20190105' media='all' />
+<link rel='stylesheet' id='twentyseventeen-style-css'  href='./../../../../wp-content/themes/twentyseventeen/style.css?ver=20190507' media='all' />
+<link rel='stylesheet' id='twentyseventeen-block-style-css'  href='./../../../../wp-content/themes/twentyseventeen/assets/css/blocks.css?ver=20190105' media='all' />
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentyseventeen-ie8-css'  href='./wp-content/themes/twentyseventeen/assets/css/ie8.css?ver=20161202' media='all' />
 <![endif]-->
 <!--[if lt IE 9]>
 <script src='./wp-content/themes/twentyseventeen/assets/js/html5.js?ver=20161020'></script>
 <![endif]-->
-<script src='./../../wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
-<script src='./../../wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<link rel='https://api.w.org/' href='./../../wp-json/index.html' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./../../xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./../../wp-includes/wlwmanifest.xml" /> 
+<script src='./../../../../wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script src='./../../../../wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='./../../../../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./../../../../xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./../../../../wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Hello world!' href='./../../16/hello-world/index.html' />
+<link rel='next' title='hello shubham' href='./../hello-shubham/index.html' />
 <meta name="generator" content="WordPress 5.3.1" />
 <meta name="generator" content="Everest Forms 1.5.10" />
-<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="./../../wp-content/uploads/2019/12/cropped-icon-1-32x32.png" sizes="32x32" />
-<link rel="icon" href="./../../wp-content/uploads/2019/12/cropped-icon-1-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="./../../wp-content/uploads/2019/12/cropped-icon-1-180x180.png" />
+<link rel="canonical" href="./index.html" />
+<link rel='shortlink' href='./../../../../index.html?p=28' />
+<link rel="alternate" type="application/json+oembed" href="./../../../../wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F2019%2F12%2F21%2Fandroid-native-fetching-arraylist-data-in-recyclerview%2F" />
+<link rel="alternate" type="text/xml+oembed" href="./../../../../wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F2019%2F12%2F21%2Fandroid-native-fetching-arraylist-data-in-recyclerview%2F&#038;format=xml" />
+<link rel="pingback" href="./../../../../xmlrpc.php">
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="./../../../../wp-content/uploads/2019/12/cropped-icon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="./../../../../wp-content/uploads/2019/12/cropped-icon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="./../../../../wp-content/uploads/2019/12/cropped-icon-1-180x180.png" />
 <meta name="msapplication-TileImage" content="./wp-content/uploads/2019/12/cropped-icon-1-270x270.png" />
 </head>
 
-<body class="archive author author-root author-1 wp-custom-logo wp-embed-responsive everest-forms-no-js hfeed has-header-image has-sidebar page-two-column colors-light">
+<body class="post-template-default single single-post postid-28 single-format-quote wp-custom-logo wp-embed-responsive everest-forms-no-js has-header-image has-sidebar colors-light">
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
@@ -66,14 +73,14 @@ img.emoji {
 		<div class="custom-header">
 
 		<div class="custom-header-media">
-			<div id="wp-custom-header" class="wp-custom-header"><img src="./../../wp-content/themes/twentyseventeen/assets/images/header.jpg" width="2000" height="1200" alt="WebTutplus" /></div>		</div>
+			<div id="wp-custom-header" class="wp-custom-header"><img src="./../../../../wp-content/themes/twentyseventeen/assets/images/header.jpg" width="2000" height="1200" alt="WebTutplus" /></div>		</div>
 
 	<div class="site-branding">
 	<div class="wrap">
 
-		<a href="./../../index.html" class="custom-logo-link" rel="home"><img width="250" height="250" src="./../../wp-content/uploads/2019/12/cropped-icon-2.png" class="custom-logo" alt="WebTutplus" srcset="./../../wp-content/uploads/2019/12/cropped-icon-2.png 250w, ./../../wp-content/uploads/2019/12/cropped-icon-2-150x150.png 150w, ./../../wp-content/uploads/2019/12/cropped-icon-2-100x100.png 100w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /></a>
+		<a href="./../../../../index.html" class="custom-logo-link" rel="home"><img width="250" height="250" src="./../../../../wp-content/uploads/2019/12/cropped-icon-2.png" class="custom-logo" alt="WebTutplus" srcset="./../../../../wp-content/uploads/2019/12/cropped-icon-2.png 250w, ./../../../../wp-content/uploads/2019/12/cropped-icon-2-150x150.png 150w, ./../../../../wp-content/uploads/2019/12/cropped-icon-2-100x100.png 100w" sizes="100vw" /></a>
 		<div class="site-branding-text">
-							<p class="site-title"><a href="./../../index.html" rel="home">WebTutplus</a></p>
+							<p class="site-title"><a href="./../../../../index.html" rel="home">WebTutplus</a></p>
 			
 							<p class="site-description">We are people trying to make web development and programming easy for you.</p>
 					</div><!-- .site-branding-text -->
@@ -87,38 +94,19 @@ img.emoji {
 		
 	</header><!-- #masthead -->
 
-	
+	<div class="single-featured-image-header"><img width="549" height="195" src="./../../../../wp-content/uploads/2019/12/33-5.jpeg" class="attachment-twentyseventeen-featured-image size-twentyseventeen-featured-image wp-post-image" alt="" srcset="./../../../../wp-content/uploads/2019/12/33-5.jpeg 549w, ./../../../../wp-content/uploads/2019/12/33-5-300x107.jpeg 300w" sizes="100vw" /></div><!-- .single-featured-image-header -->
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
 
 <div class="wrap">
-
-			<header class="page-header">
-			<h1 class="page-title">Author: <span class="vcard">root</span></h1>		</header><!-- .page-header -->
-	
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-					
-<article id="post-60" class="post-60 post type-post status-publish format-standard hentry category-uncategorized">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="./../../2019/12/21/hello-shubham/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2019-12-21T17:37:45+00:00">December 21, 2019</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="./../../2019/12/21/hello-shubham/index.html" rel="bookmark">hello shubham</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-			</div><!-- .entry-content -->
-
-	
-</article><!-- #post-60 -->
-
+			
 <article id="post-28" class="post-28 post type-post status-publish format-quote has-post-thumbnail hentry category-uncategorized post_format-post-format-quote">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="./../../2019/12/21/android-native-fetching-arraylist-data-in-recyclerview/index.html" rel="bookmark"><time class="entry-date published" datetime="2019-12-21T16:05:53+00:00">December 21, 2019</time><time class="updated" datetime="2019-12-21T17:36:58+00:00">December 21, 2019</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="./../../2019/12/21/android-native-fetching-arraylist-data-in-recyclerview/index.html" rel="bookmark">Android Native: Fetching ArrayList data in RecyclerView</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="posted-on"><span class="screen-reader-text">Posted on</span> <a href="./index.html" rel="bookmark"><time class="entry-date published" datetime="2019-12-21T16:05:53+00:00">December 21, 2019</time><time class="updated" datetime="2019-12-21T17:36:58+00:00">December 21, 2019</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="./../../../../author/root/index.html">root</a></span></span></div><!-- .entry-meta --><h1 class="entry-title">Android Native: Fetching ArrayList data in RecyclerView</h1>	</header><!-- .entry-header -->
 
-			<div class="post-thumbnail">
-			<a href="./../../2019/12/21/android-native-fetching-arraylist-data-in-recyclerview/index.html">
-				<img width="549" height="195" src="./../../wp-content/uploads/2019/12/33-5.jpeg" class="attachment-twentyseventeen-featured-image size-twentyseventeen-featured-image wp-post-image" alt="" srcset="./../../wp-content/uploads/2019/12/33-5.jpeg 549w, ./../../wp-content/uploads/2019/12/33-5-300x107.jpeg 300w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" />			</a>
-		</div><!-- .post-thumbnail -->
 	
 	<div class="entry-content">
 		
@@ -126,7 +114,7 @@ img.emoji {
 
 
 
-<figure class="wp-block-image size-large is-resized"><img src="./../../wp-content/uploads/2019/12/22-1-576x1024.png" alt="" class="wp-image-35" width="452" height="804" srcset="./../../wp-content/uploads/2019/12/22-1-576x1024.png 576w, ./../../wp-content/uploads/2019/12/22-1-169x300.png 169w, ./../../wp-content/uploads/2019/12/22-1-768x1365.png 768w, ./../../wp-content/uploads/2019/12/22-1-864x1536.png 864w, ./../../wp-content/uploads/2019/12/22-1.png 1080w" sizes="(max-width: 452px) 100vw, 452px" /></figure>
+<figure class="wp-block-image size-large is-resized"><img src="./../../../../wp-content/uploads/2019/12/22-1-576x1024.png" alt="" class="wp-image-35" width="452" height="804" srcset="./../../../../wp-content/uploads/2019/12/22-1-576x1024.png 576w, ./../../../../wp-content/uploads/2019/12/22-1-169x300.png 169w, ./../../../../wp-content/uploads/2019/12/22-1-768x1365.png 768w, ./../../../../wp-content/uploads/2019/12/22-1-864x1536.png 864w, ./../../../../wp-content/uploads/2019/12/22-1.png 1080w" sizes="(max-width: 452px) 100vw, 452px" /></figure>
 
 
 
@@ -203,7 +191,7 @@ img.emoji {
 
 
 <div class="wp-block-group"><div class="wp-block-group__inner-container">
-<figure class="wp-block-gallery columns-2 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="./../../wp-content/uploads/2019/12/33-4.jpeg" alt="" data-id="44" data-full-url="./wp-content/uploads/2019/12/33-4.jpeg" data-link="./?attachment_id=44" class="wp-image-44" srcset="./../../wp-content/uploads/2019/12/33-4.jpeg 549w, ./../../wp-content/uploads/2019/12/33-4-300x107.jpeg 300w" sizes="(max-width: 549px) 100vw, 549px" /></figure></li><li class="blocks-gallery-item"><figure><img src="./../../wp-content/uploads/2019/12/44-4.jpeg" alt="" data-id="45" data-full-url="./wp-content/uploads/2019/12/44-4.jpeg" data-link="./?attachment_id=45" class="wp-image-45" srcset="./../../wp-content/uploads/2019/12/44-4.jpeg 550w, ./../../wp-content/uploads/2019/12/44-4-300x115.jpeg 300w" sizes="(max-width: 550px) 100vw, 550px" /></figure></li></ul></figure>
+<figure class="wp-block-gallery columns-2 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="./../../../../wp-content/uploads/2019/12/33-4.jpeg" alt="" data-id="44" data-full-url="./wp-content/uploads/2019/12/33-4.jpeg" data-link="./?attachment_id=44" class="wp-image-44" srcset="./../../../../wp-content/uploads/2019/12/33-4.jpeg 549w, ./../../../../wp-content/uploads/2019/12/33-4-300x107.jpeg 300w" sizes="(max-width: 549px) 100vw, 549px" /></figure></li><li class="blocks-gallery-item"><figure><img src="./../../../../wp-content/uploads/2019/12/44-4.jpeg" alt="" data-id="45" data-full-url="./wp-content/uploads/2019/12/44-4.jpeg" data-link="./?attachment_id=45" class="wp-image-45" srcset="./../../../../wp-content/uploads/2019/12/44-4.jpeg 550w, ./../../../../wp-content/uploads/2019/12/44-4-300x115.jpeg 300w" sizes="(max-width: 550px) 100vw, 550px" /></figure></li></ul></figure>
 </div></div>
 
 
@@ -429,26 +417,30 @@ img.emoji {
 	
 </article><!-- #post-28 -->
 
-<article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="./../../2019/12/16/hello-world/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2019-12-16T19:47:59+00:00">December 16, 2019</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="./../../2019/12/16/hello-world/index.html" rel="bookmark">Hello world!</a></h2>	</header><!-- .entry-header -->
+<div id="comments" class="comments-area">
 
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="./index.html#respond" style="display:none;">Cancel reply</a></small></h3><form action="./../../../../wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='28' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
 	
-	<div class="entry-content">
-		
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-	</div><!-- .entry-content -->
+</div><!-- #comments -->
 
-	
-</article><!-- #post-1 -->
-
+	<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="./../../16/hello-world/index.html" rel="prev"><span class="screen-reader-text">Previous Post</span><span aria-hidden="true" class="nav-subtitle">Previous</span> <span class="nav-title"><span class="nav-title-icon-wrapper"><svg class="icon icon-arrow-left" aria-hidden="true" role="img"> <use href="#icon-arrow-left" xlink:href="#icon-arrow-left"></use> </svg></span>Hello world!</span></a></div><div class="nav-next"><a href="./../hello-shubham/index.html" rel="next"><span class="screen-reader-text">Next Post</span><span aria-hidden="true" class="nav-subtitle">Next</span> <span class="nav-title">hello shubham<span class="nav-title-icon-wrapper"><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xlink:href="#icon-arrow-right"></use> </svg></span></span></a></div></div>
+	</nav>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	
 <aside id="secondary" class="widget-area" role="complementary" aria-label="Blog Sidebar">
 	<section id="search-2" class="widget widget_search"><h2 class="widget-title">Hello Gaurav</h2>
 
-<form role="search" method="get" class="search-form" action="./../../index.html">
+<form role="search" method="get" class="search-form" action="./../../../../index.html">
 	<label for="search-form-1">
 		<span class="screen-reader-text">Search for:</span>
 	</label>
@@ -457,26 +449,26 @@ img.emoji {
 </form>
 </section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
 											<li>
-					<a href="./../../2019/12/21/hello-shubham/index.html">hello shubham</a>
+					<a href="./../hello-shubham/index.html">hello shubham</a>
 									</li>
 											<li>
-					<a href="./../../2019/12/21/android-native-fetching-arraylist-data-in-recyclerview/index.html">Android Native: Fetching ArrayList data in RecyclerView</a>
+					<a href="./index.html" aria-current="page">Android Native: Fetching ArrayList data in RecyclerView</a>
 									</li>
 											<li>
-					<a href="./../../2019/12/16/hello-world/index.html" aria-current="page">Hello world!</a>
+					<a href="./../../16/hello-world/index.html">Hello world!</a>
 									</li>
 					</ul>
-		</section><section id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">root</span> on <a href="./../../2019/12/16/hello-world/index.html#comment-2">Hello world!</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow ugc' class='url'>A WordPress Commenter</a></span> on <a href="./../../2019/12/16/hello-world/index.html#comment-1">Hello world!</a></li></ul></section><section id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>		<ul>
-				<li><a href='./../../2019/12/index.html'>December 2019</a></li>
+		</section><section id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">root</span> on <a href="./../../16/hello-world/index.html#comment-2">Hello world!</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow ugc' class='url'>A WordPress Commenter</a></span> on <a href="./../../16/hello-world/index.html#comment-1">Hello world!</a></li></ul></section><section id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>		<ul>
+				<li><a href='./../../index.html'>December 2019</a></li>
 		</ul>
 			</section><section id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
-				<li class="cat-item cat-item-1"><a href="./../../category/uncategorized/index.html">Uncategorized</a>
+				<li class="cat-item cat-item-1"><a href="./../../../../category/uncategorized/index.html">Uncategorized</a>
 </li>
 		</ul>
 			</section><section id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>			<ul>
-						<li><a href="./../../wp-login.php">Log in</a></li>
-			<li><a href="./../../feed/index.html">Entries feed</a></li>
-			<li><a href="./../../comments/feed/index.html">Comments feed</a></li>
+						<li><a href="./../../../../wp-login.php">Log in</a></li>
+			<li><a href="./../../../../feed/index.html">Entries feed</a></li>
+			<li><a href="./../../../../comments/feed/index.html">Comments feed</a></li>
 			<li><a href="https://wordpress.org/">WordPress.org</a></li>			</ul>
 			</section></aside><!-- #secondary -->
 </div><!-- .wrap -->
@@ -503,10 +495,11 @@ img.emoji {
 	<script>
 var twentyseventeenScreenReaderText = {"quote":"<svg class=\"icon icon-quote-right\" aria-hidden=\"true\" role=\"img\"> <use href=\"#icon-quote-right\" xlink:href=\"#icon-quote-right\"><\/use> <\/svg>"};
 </script>
-<script src='./../../wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js?ver=20161114'></script>
-<script src='./../../wp-content/themes/twentyseventeen/assets/js/global.js?ver=20190121'></script>
-<script src='./../../wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js?ver=2.1.2'></script>
-<script src='./../../wp-includes/js/wp-embed.min.js?ver=5.3.1'></script>
+<script src='./../../../../wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js?ver=20161114'></script>
+<script src='./../../../../wp-content/themes/twentyseventeen/assets/js/global.js?ver=20190121'></script>
+<script src='./../../../../wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js?ver=2.1.2'></script>
+<script src='./../../../../wp-includes/js/comment-reply.min.js?ver=5.3.1'></script>
+<script src='./../../../../wp-includes/js/wp-embed.min.js?ver=5.3.1'></script>
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-behance" viewbox="0 0 37 32">

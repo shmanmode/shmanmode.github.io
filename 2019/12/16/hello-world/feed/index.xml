@@ -10,14 +10,25 @@
 	Comments on: Hello world!	</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
-	<description>Gaurav Manmode</description>
-	<lastBuildDate>Mon, 16 Dec 2019 19:47:59 +0000</lastBuildDate>
+	<description>We are people trying to make web development and programming easy for you.</description>
+	<lastBuildDate>Sat, 21 Dec 2019 15:23:55 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.1</generator>
 			<item>
+				<title>
+				By: root				</title>
+				<link>./../index.html#comment-2</link>
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sat, 21 Dec 2019 15:23:55 +0000</pubDate>
+		<guid isPermaLink="false">./../../../../../index.html?p=1#comment-2</guid>
+					<description><![CDATA[ghjgfh]]></description>
+		<content:encoded><![CDATA[<p>ghjgfh</p>
+]]></content:encoded>
+						</item>
+						<item>
 				<title>
 				By: A WordPress Commenter				</title>
 				<link>./../index.html#comment-1</link>
