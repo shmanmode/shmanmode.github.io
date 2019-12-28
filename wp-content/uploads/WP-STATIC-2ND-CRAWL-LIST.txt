@@ -1,0 +1,10 @@
+/2019/12/28/hello-world/feed/
+/author/sh-manmodegmail-com/
+/category/uncategorized/feed/
+/comments/feed/
+/feed/
+/sample-page/feed/
+/wp-admin/
+/wp-includes/css/dist/block-library/style.min.css
+/wp-json/
+/wp-json/oembed/1.0/embed

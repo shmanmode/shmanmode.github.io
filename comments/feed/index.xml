@@ -10,30 +10,19 @@
 	Comments for WebTutplus	</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../index.html</link>
-	<description>We are people trying to make web development and programming easy for you.</description>
-	<lastBuildDate>Sat, 21 Dec 2019 15:23:55 +0000</lastBuildDate>
+	<description>The web is our playground</description>
+	<lastBuildDate>Sat, 28 Dec 2019 14:13:57 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.1</generator>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 			<item>
 				<title>
-				Comment on Hello world! by root				</title>
-				<link>./../../2019/12/16/hello-world/index.html#comment-2</link>
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Sat, 21 Dec 2019 15:23:55 +0000</pubDate>
-		<guid isPermaLink="false">./../../index.html?p=1#comment-2</guid>
-					<description><![CDATA[ghjgfh]]></description>
-		<content:encoded><![CDATA[<p>ghjgfh</p>
-]]></content:encoded>
-						</item>
-						<item>
-				<title>
 				Comment on Hello world! by A WordPress Commenter				</title>
-				<link>./../../2019/12/16/hello-world/index.html#comment-1</link>
+				<link>./../../2019/12/28/hello-world/index.html#comment-1</link>
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
-		<pubDate>Mon, 16 Dec 2019 19:47:59 +0000</pubDate>
+		<pubDate>Sat, 28 Dec 2019 10:56:33 +0000</pubDate>
 		<guid isPermaLink="false">./../../index.html?p=1#comment-1</guid>
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.

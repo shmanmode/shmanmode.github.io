@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>sh.manmode@gmail.com &#8211; WebTutplus</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>The web is our playground</description>
+	<lastBuildDate>Sat, 28 Dec 2019 14:13:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2019/12/cropped-red-icon-32x32.png</url>
+	<title>sh.manmode@gmail.com &#8211; WebTutplus</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hello world!</title>
+		<link>./../../../2019/12/28/hello-world/index.html</link>
+				<comments>./../../../2019/12/28/hello-world/index.html#comments</comments>
+				<pubDate>Sat, 28 Dec 2019 10:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+				<description><![CDATA[Remember the memories of your childhood when you accepted the challenge to solve some Jigsaw Puzzle, Complex Mathematics Problems, Tic-Tac-Toe, Sudoku or Rubik’s cube kinda… ]]></description>
+								<content:encoded><![CDATA[
+<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-1024x337.png" alt="" class="wp-image-8" srcset="./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-1024x337.png 1024w, ./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-300x99.png 300w, ./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-768x252.png 768w, ./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-1536x505.png 1536w, ./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-2048x673.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+]]></content:encoded>
+							<wfw:commentRss>./../../../2019/12/28/hello-world/feed/index.html</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>
