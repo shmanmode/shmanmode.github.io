@@ -1,502 +1,533 @@
-
 <!doctype html>
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-	<title>WebTutplus &#8211; The web is our playground</title>
+	<title>The web is our playground</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Feed" href="./feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Comments Feed" href="./comments/feed/index.html" />
-<noscript><link rel='stylesheet' href='./wp-content/themes/blocksy/static/bundle/no-scripts.css' type='text/css' /></noscript>
-<style id="ct-main-styles-inline-css" type="text/css">header [data-row="bottom"] {--backgroundColor:rgba(255, 255, 255, 0);--height:80px;--backgroundImage:none;}header [data-row="bottom"] > [data-border]:before {--border:none;}header [data-row="bottom"] > [data-border]:after {--border:none;}.ct-header-cta {--buttonInitialColor:var(--paletteColor1);--buttonTextInitialColor:#ffffff;--buttonTextHoverColor:#ffffff;--buttonHoverColor:var(--paletteColor2);}.ct-header-cart i {--iconSize:15px;}.ct-header-cart {--cartBadgeText:#ffffff;--cartBadgeBackground:var(--paletteColor1);}.ct-cart-content {--dropdownTopOffset:15px;--color:#ffffff;--backgroundColor:#29333C;}.custom-logo-link {--maxHeight:50px;}.site-title {--color:var(--paletteColor4);--fontSize:25px;}.site-description {--fontSize:13px;--fontWeight:500;}.header-menu-1 {--menuIndicatorActiveColor:var(--paletteColor1);--menuItemsSpacing:25px;}.header-menu-1 > ul {--height:100%;}.header-menu-1 ul {--lineHeight:1.3;--fontWeight:700;--textTransform:uppercase;--fontSize:12px;}.header-menu-1 > ul > li > a {--colorHoverType3:#ffffff;}.header-menu-1 .sub-menu {--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--dropDownDivider:1px dashed rgba(255, 255, 255, 0.1);--color:#ffffff;--fontWeight:500;--width:200px;--marginTop:15px;--fontSize:12px;--backgroundColor:#29333C;--borderRadius:2px;}.header-menu-1 .sub-menu li {--padding:13px;}.header-menu-2 {--menuIndicatorActiveColor:var(--paletteColor1);--menuItemsSpacing:25px;}.header-menu-2 > ul {--height:100%;}.header-menu-2 ul {--lineHeight:1.3;--fontWeight:700;--textTransform:uppercase;--fontSize:12px;}.header-menu-2 > ul > li > a {--colorHoverType3:#ffffff;}.header-menu-2 .sub-menu {--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--dropDownDivider:1px dashed rgba(255, 255, 255, 0.1);--color:#ffffff;--fontWeight:500;--width:200px;--marginTop:15px;--fontSize:12px;--backgroundColor:#29333C;--borderRadius:2px;}.header-menu-2 .sub-menu li {--padding:13px;}header [data-row="middle"] {--backgroundColor:rgba(255, 255, 255, 0);--height:120px;--backgroundImage:none;}header [data-row="middle"] > [data-border]:before {--border:none;}header [data-row="middle"] > [data-border]:after {--border:none;}.mobile-menu {--color:#ffffff;--fontWeight:700;--fontSize:30px;}#offcanvas {--backgroundImage:none;--backgroundColor:rgba(18, 21, 25, 0.98);}[data-behaviour*="side"] {--boxShadow:0px 0px 70px rgba(0, 0, 0, 0.35);}.ct-header-search {--iconSize:15px;}#search-modal {--backgroundImage:none;--color:#ffffff;--backgroundColor:rgba(18, 21, 25, 0.98);}.ct-header-socials {--spacing:15px;--iconSize:15px;}.ct-header-socials [data-color="custom"] {--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}.ct-header-text {--fontSize:15px;--maxWidth:100%;--lineHeight:1.3;}header [data-row="top"] {--backgroundColor:#f9f9f9;--height:50px;--backgroundImage:none;}header [data-row="top"] > [data-border]:before {--border:none;}header [data-row="top"] > [data-border]:after {--border:none;}#header {--backgroundImage:none;--backgroundColor:#ffffff;}.site-footer [data-row="bottom"] > div {--containerSpacing:10px;--itemsGap:60px;--gridTemplateColummns:initial;}.site-footer [data-row="bottom"] .widget-title {--fontSize:16px;--color:var(--paletteColor4);}.site-footer [data-row="bottom"] [data-divider="columns"] {--border:none;}.site-footer [data-row="bottom"] {--backgroundImage:none;--borderTop:none;--borderBottom:none;--backgroundColor:var(--paletteColor1);}.ct-footer-copyright {--fontSize:15px;--fontWeight:400;--lineHeight:1.3;}[data-column="copyright"] {--horizontal-alignment:center;--vertical-alignment:flex-start;}.footer-menu {--menuItemsSpacing:20px;}[data-column="menu"] {--alignment:flex-start;--vertical-alignment:flex-start;}.footer-menu ul {--lineHeight:1.3;--fontWeight:700;--textTransform:uppercase;--fontSize:12px;}.site-footer [data-row="middle"] > div {--containerSpacing:70px;--itemsGap:60px;--gridTemplateColummns:repeat(3, 1fr);}.site-footer [data-row="middle"] .widget-title {--fontSize:16px;--color:var(--paletteColor4);}.site-footer [data-row="middle"] [data-divider="columns"] {--border:1px dashed #dddddd;}.site-footer [data-row="middle"] {--backgroundImage:none;--borderTop:none;--borderBottom:none;--backgroundColor:#cccccc;}.ct-footer-socials {--spacing:15px;--iconSize:15px;}[data-column="socials"] {--horizontal-alignment:flex-start;--vertical-alignment:flex-start;}.ct-footer-socials [data-color="custom"] {--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}.site-footer [data-row="top"] > div {--containerSpacing:30px;--itemsGap:60px;--gridTemplateColummns:repeat(2, 1fr);}.site-footer [data-row="top"] .widget-title {--fontSize:16px;--color:var(--paletteColor4);}.site-footer [data-row="top"] [data-divider="columns"] {--border:none;}.site-footer [data-row="top"] {--backgroundImage:none;--borderTop:none;--borderBottom:none;--backgroundColor:#eef0f4;}.site-footer:before {--boxShadow:0px 30px 50px rgba(0, 0, 0, 0.1);}footer {--backgroundImage:none;--backgroundColor:#f4f5f8;}:root {--narrowContainer:750px;--buttonHoverColor:var(--paletteColor2);--buttonTextHoverColor:#ffffff;--colorHover:var(--paletteColor1);--paletteColor5:#ffffff;--paletteColor3:rgba(44, 62, 80, 0.9);--paletteColor1:#3eaf7c;--buttonFontWeight:500;--letterSpacing:0em;--fontSize:17px;--textTransform:none;--fontFamily:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';--fontWeight:400;--textDecoration:none;--lineHeight:1.65;--buttonFontSize:15px;--paletteColor2:#33a370;--paletteColor4:rgba(44, 62, 80, 1);--color:var(--paletteColor3);--buttonTextInitialColor:#ffffff;--buttonInitialColor:var(--paletteColor1);--maxSiteWidth:1290px;--wideOffset:130px;}h1 {--lineHeight:1.5;--fontWeight:700;--fontSize:40px;}h2 {--lineHeight:1.5;--fontWeight:700;--fontSize:35px;}h3 {--lineHeight:1.5;--fontWeight:700;--fontSize:30px;}h4 {--lineHeight:1.5;--fontWeight:700;--fontSize:25px;}h5 {--lineHeight:1.5;--fontWeight:700;--fontSize:20px;}h6 {--lineHeight:1.5;--fontWeight:700;--fontSize:16px;}.wp-block-quote.is-style-large p, .wp-block-pullquote p, .ct-quote-widget blockquote {--fontWeight:600;--fontFamily:Georgia;--fontSize:25px;}code, kbd, samp, pre {--fontWeight:400;--fontFamily:monospace;--fontSize:16px;}.ct-sidebar .widget-title {--fontSize:18px;--color:var(--paletteColor4);}.product_title {--fontSize:30px;}.site-main {--backgroundImage:none;--backgroundColor:#f8f9fb;}.post[data-structure*="boxed"] {--backgroundImage:none;--backgroundColor:#ffffff;--contentBoxedSpacing:40px;}.ct-related-posts {--backgroundColor:#eff1f5;--backgroundImage:none;--padding:70px;}.single .ct-comments-container {--backgroundImage:none;--backgroundColor:#f8f9fb;}.page[data-structure*="boxed"] {--contentBoxedSpacing:40px;--backgroundImage:none;--backgroundColor:#ffffff;}.page .ct-comments-container {--backgroundImage:none;--backgroundColor:#f8f9fb;}.footer-widgets-area {--backgroundImage:none;--backgroundColor:#f4f5f8;}.ct-pagination {--spacing:80px;}.ct-pagination[data-divider] {--border:none;}.ct-pagination[data-type="simple"] {--colorActive:#ffffff;}.ct-pagination[data-type="load_more"] {--buttonTextInitialColor:#ffffff;--buttonTextHoverColor:#ffffff;}.entry-card .entry-title {--color:#2c3e50;--lineHeight:1.3;--fontSize:20px;--colorHover:#a5d875;}.entry-excerpt {--cardExcerptSize:16px;}.entry-card .entry-meta {--lineHeight:1.3;--fontWeight:600;--textTransform:uppercase;--fontSize:12px;}.entry-meta {--colorHover:#a3ea52;}.entry-button[data-type="outline"] {--colorHover:#ffffff;}[data-cards="boxed"] .entry-card {--border:none;--cardBackground:var(--paletteColor2);--cardSpacing:35px;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}[data-cards="simple"] .entry-card {--border:1px dashed rgba(224, 229, 235, 0.8);}.entries {--cardsGap:30px;}.demo_store {--color:#ffffff;--backgroundColor:var(--paletteColor1);}form {--formBorderFocusColor:var(--paletteColor1);--formInputHeight:45px;--formFontSize:15px;--formBorderInitialColor:rgba(232, 235, 240, 1);--formBorderSize:1px;}form textarea {--formInputHeight:170px;}.selectr-container {--selectDropdownItemActiveColor:var(--paletteColor1);--colorActive:#ffffff;--selectDropdownItemHoverColor:rgba(232, 235, 240, 0.4);--selectDropdownBackground:#ffffff;}[type="radio"], [type="checkbox"] {--radioCheckboxInitialColor:#e8ebf0;--radioCheckboxAccentColor:var(--paletteColor1);}.entry-content h1 {--color:var(--paletteColor4);}.entry-content h2 {--color:var(--paletteColor4);}.entry-content h3 {--color:var(--paletteColor4);}.entry-content h4 {--color:var(--paletteColor4);}.entry-content h5 {--color:var(--paletteColor4);}.entry-content h6 {--color:var(--paletteColor4);}.entry-content {--entryLinkColorHover:var(--colorHover);--entryLinkColor:var(--paletteColor1);--entryLinkTextColor:#ffffff;}.content-area {--contentAreaSpacing:80px;}[data-sidebar] {--sidebarGap:4%;--sidebarWidth:27%;--sidebarWidthNoUnit:27;--sidebarOffset:50px;}.ct-sidebar {--sidebarWidgetsSpacing:60px;}[data-sidebar] > aside {--sidebarBackgroundColor:#dbffdb;--sidebarInnerSpacing:35px;}aside[data-type="type-2"] {--border:none;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}aside[data-type="type-3"] {--border:1px solid rgba(224, 229, 235, 0.8);}.ct-related-posts-label {--color:var(--paletteColor4);}.ct-related-posts .ct-image-container {--borderRadius:5px;}.single .ct-comments {--width:60%;}.page .ct-comments {--width:60%;}.post-navigation {--margin:80px;}.ct-share-box[data-location="top"] {--margin:70px;}.ct-share-box[data-location="bottom"] {--margin:70px;}.ct-share-box[data-type="type-1"] {--borderColor:#e0e5eb;}.ct-share-box[data-type="type-2"] {--backgroundColor:var(--paletteColor1);--color:#ffffff;--backgroundColorHover:var(--paletteColor2);}.author-box {--spacing:40px;}.author-box[data-type="type-1"] {--backgroundColor:#ffffff;--boxShadow:0px 50px 90px rgba(210, 213, 218, 0.4);}.author-box[data-type="type-2"] {--borderColor:#e8ebf0;}.footer-widgets .widget-title {--color:var(--paletteColor4);}.footer-widgets {--widgetAreaSpacing:70px;}.footer-widgets[data-divider] {--widgetsAreaDivider:1px dashed #dddddd;}.footer-primary-area {--backgroundColor:#eef0f4;--spacing:30px;}.footer-copyright {--backgroundColor:#eef0f4;--spacing:25px;}.ct-back-to-top {--backgroundColorHover:var(--paletteColor4);--colorHover:#ffffff;--bottom:25px;--color:#ffffff;--backgroundColor:var(--paletteColor3);}.ct-passepartout {--passepartoutSize:10px;--passepartoutColor:var(--paletteColor1);}</style>
-<style id="ct-main-styles-tablet-inline-css" type="text/css" media="(max-width: 1000px) and (min-width: 690px)">header [data-row="bottom"] {--backgroundColor:rgba(255, 255, 255, 0);--height:80px;--backgroundImage:none;}header [data-row="bottom"] > [data-border]:before {--border:none;}header [data-row="bottom"] > [data-border]:after {--border:none;}.ct-header-cta {--buttonInitialColor:var(--paletteColor1);--buttonTextInitialColor:#ffffff;--buttonTextHoverColor:#ffffff;--buttonHoverColor:var(--paletteColor2);}.ct-header-cart i {--iconSize:15px;}.ct-header-cart {--cartBadgeText:#ffffff;--cartBadgeBackground:var(--paletteColor1);}.custom-logo-link {--maxHeight:50px;}.site-title {--color:var(--paletteColor4);--fontSize:25px;}.site-description {--fontSize:13px;}.header-menu-1 ul {--lineHeight:1.3;--fontSize:12px;}.header-menu-1 .sub-menu {--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--fontSize:12px;--borderRadius:2px;}.header-menu-2 ul {--lineHeight:1.3;--fontSize:12px;}.header-menu-2 .sub-menu {--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--fontSize:12px;--borderRadius:2px;}header [data-row="middle"] {--backgroundColor:rgba(255, 255, 255, 0);--height:70px;--backgroundImage:none;}header [data-row="middle"] > [data-border]:before {--border:none;}header [data-row="middle"] > [data-border]:after {--border:none;}.mobile-menu {--fontSize:30px;}[data-behaviour*="side"] {--boxShadow:0px 0px 70px rgba(0, 0, 0, 0.35);}.ct-header-search {--iconSize:15px;}.ct-header-socials {--spacing:15px;--iconSize:15px;}.ct-header-socials [data-color="custom"] {--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}.ct-header-text {--fontSize:15px;--maxWidth:100%;--lineHeight:1.3;}header [data-row="top"] {--backgroundColor:#f9f9f9;--height:50px;--backgroundImage:none;}header [data-row="top"] > [data-border]:before {--border:none;}header [data-row="top"] > [data-border]:after {--border:none;}.site-footer [data-row="bottom"] > div {--containerSpacing:25px;--itemsGap:60px;--gridTemplateColummns:initial;}.site-footer [data-row="bottom"] .widget-title {--fontSize:16px;}.ct-footer-copyright {--fontSize:15px;--lineHeight:1.3;}[data-column="copyright"] {--horizontal-alignment:center;--vertical-alignment:flex-start;}.footer-menu {--menuItemsSpacing:20px;}[data-column="menu"] {--alignment:flex-start;--vertical-alignment:flex-start;}.footer-menu ul {--lineHeight:1.3;--fontSize:12px;}.site-footer [data-row="middle"] > div {--containerSpacing:50px;--itemsGap:60px;--gridTemplateColummns:initial;}.site-footer [data-row="middle"] .widget-title {--fontSize:16px;}.ct-footer-socials {--spacing:15px;--iconSize:15px;}[data-column="socials"] {--horizontal-alignment:center;--vertical-alignment:center;}.ct-footer-socials [data-color="custom"] {--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}.site-footer [data-row="top"] > div {--containerSpacing:30px;--itemsGap:60px;--gridTemplateColummns:initial;}.site-footer [data-row="top"] .widget-title {--fontSize:16px;}.site-footer:before {--boxShadow:0px 30px 50px rgba(0, 0, 0, 0.1);}:root {--letterSpacing:0em;--fontSize:17px;--lineHeight:1.65;--buttonFontSize:15px;}h1 {--lineHeight:1.5;--fontSize:40px;}h2 {--lineHeight:1.5;--fontSize:35px;}h3 {--lineHeight:1.5;--fontSize:30px;}h4 {--lineHeight:1.5;--fontSize:25px;}h5 {--lineHeight:1.5;--fontSize:20px;}h6 {--lineHeight:1.5;--fontSize:16px;}.wp-block-quote.is-style-large p, .wp-block-pullquote p, .ct-quote-widget blockquote {--fontSize:25px;}code, kbd, samp, pre {--fontSize:16px;}.ct-sidebar .widget-title {--fontSize:18px;}.product_title {--fontSize:30px;}.ct-pagination {--spacing:60px;}.entry-card .entry-title {--lineHeight:1.3;--fontSize:20px;}.entry-excerpt {--cardExcerptSize:16px;}.entry-card .entry-meta {--lineHeight:1.3;--fontSize:12px;}.entries {--cardsGap:30px;}[data-cards="boxed"] .entry-card {--cardSpacing:35px;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}.content-area {--contentAreaSpacing:60px;}aside[data-type="type-2"] {--border:none;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}aside[data-type="type-3"] {--border:1px solid rgba(224, 229, 235, 0.8);}.ct-sidebar {--sidebarWidgetsSpacing:40px;}[data-sidebar] > aside {--sidebarInnerSpacing:35px;}.ct-related-posts {--padding:50px;}.ct-related-posts .ct-image-container {--borderRadius:5px;}.single .ct-comments {--width:100%;}.page .ct-comments {--width:100%;}.post-navigation {--margin:60px;}.ct-share-box[data-location="top"] {--margin:50px;}.ct-share-box[data-location="bottom"] {--margin:50px;}.post[data-structure*="boxed"] {--contentBoxedSpacing:40px;}.page[data-structure*="boxed"] {--contentBoxedSpacing:40px;}.author-box {--spacing:40px;}.author-box[data-type="type-1"] {--boxShadow:0px 50px 90px rgba(210, 213, 218, 0.4);}.footer-widgets {--widgetAreaSpacing:50px;}.footer-primary-area {--spacing:30px;}.footer-copyright {--spacing:25px;}.ct-passepartout {--passepartoutSize:10px;}</style>
-<style id="ct-main-styles-mobile-inline-css" type="text/css" media="(max-width: 690px)">header [data-row="bottom"] {--backgroundColor:rgba(255, 255, 255, 0);--height:80px;--backgroundImage:none;}header [data-row="bottom"] > [data-border]:before {--border:none;}header [data-row="bottom"] > [data-border]:after {--border:none;}.ct-header-cta {--buttonInitialColor:var(--paletteColor1);--buttonTextInitialColor:#ffffff;--buttonTextHoverColor:#ffffff;--buttonHoverColor:var(--paletteColor2);}.ct-header-cart i {--iconSize:15px;}.ct-header-cart {--cartBadgeText:#ffffff;--cartBadgeBackground:var(--paletteColor1);}.custom-logo-link {--maxHeight:50px;}.site-title {--color:var(--paletteColor4);--fontSize:25px;}.site-description {--fontSize:12px;}.header-menu-1 ul {--lineHeight:1.3;--fontSize:12px;}.header-menu-1 .sub-menu {--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--fontSize:12px;--borderRadius:2px;}.header-menu-2 ul {--lineHeight:1.3;--fontSize:12px;}.header-menu-2 .sub-menu {--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--fontSize:12px;--borderRadius:2px;}header [data-row="middle"] {--backgroundColor:rgba(255, 255, 255, 0);--height:70px;--backgroundImage:none;}header [data-row="middle"] > [data-border]:before {--border:none;}header [data-row="middle"] > [data-border]:after {--border:none;}.mobile-menu {--fontSize:23px;}[data-behaviour*="side"] {--boxShadow:0px 0px 70px rgba(0, 0, 0, 0.35);}.ct-header-search {--iconSize:15px;}.ct-header-socials {--spacing:15px;--iconSize:15px;}.ct-header-socials [data-color="custom"] {--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}.ct-header-text {--fontSize:15px;--maxWidth:100%;--lineHeight:1.3;}header [data-row="top"] {--backgroundColor:#f9f9f9;--height:50px;--backgroundImage:none;}header [data-row="top"] > [data-border]:before {--border:none;}header [data-row="top"] > [data-border]:after {--border:none;}.site-footer [data-row="bottom"] > div {--containerSpacing:15px;--itemsGap:60px;--gridTemplateColummns:initial;}.site-footer [data-row="bottom"] .widget-title {--fontSize:16px;}.ct-footer-copyright {--fontSize:15px;--lineHeight:1.3;}[data-column="copyright"] {--horizontal-alignment:center;--vertical-alignment:flex-start;}.footer-menu {--menuItemsSpacing:20px;}[data-column="menu"] {--alignment:center;--vertical-alignment:flex-start;}.footer-menu ul {--lineHeight:1.3;--fontSize:12px;}.site-footer [data-row="middle"] > div {--containerSpacing:40px;--itemsGap:60px;--gridTemplateColummns:initial;}.site-footer [data-row="middle"] .widget-title {--fontSize:16px;}.ct-footer-socials {--spacing:15px;--iconSize:15px;}[data-column="socials"] {--horizontal-alignment:center;--vertical-alignment:center;}.ct-footer-socials [data-color="custom"] {--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}.site-footer [data-row="top"] > div {--containerSpacing:30px;--itemsGap:60px;--gridTemplateColummns:initial;}.site-footer [data-row="top"] .widget-title {--fontSize:16px;}.site-footer:before {--boxShadow:0px 30px 50px rgba(0, 0, 0, 0.1);}:root {--letterSpacing:0em;--fontSize:17px;--lineHeight:1.65;--buttonFontSize:15px;}h1 {--lineHeight:1.5;--fontSize:40px;}h2 {--lineHeight:1.5;--fontSize:35px;}h3 {--lineHeight:1.5;--fontSize:30px;}h4 {--lineHeight:1.5;--fontSize:25px;}h5 {--lineHeight:1.5;--fontSize:20px;}h6 {--lineHeight:1.5;--fontSize:16px;}.wp-block-quote.is-style-large p, .wp-block-pullquote p, .ct-quote-widget blockquote {--fontSize:25px;}code, kbd, samp, pre {--fontSize:16px;}.ct-sidebar .widget-title {--fontSize:18px;}.product_title {--fontSize:30px;}.ct-pagination {--spacing:50px;}.entry-card .entry-title {--lineHeight:1.3;--fontSize:18px;}.entry-excerpt {--cardExcerptSize:16px;}.entry-card .entry-meta {--lineHeight:1.3;--fontSize:12px;}.entries {--cardsGap:30px;}[data-cards="boxed"] .entry-card {--cardSpacing:25px;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}.content-area {--contentAreaSpacing:50px;}aside[data-type="type-2"] {--border:none;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}aside[data-type="type-3"] {--border:1px solid rgba(224, 229, 235, 0.8);}.ct-sidebar {--sidebarWidgetsSpacing:30px;}[data-sidebar] > aside {--sidebarInnerSpacing:35px;}.ct-related-posts {--padding:30px;}.ct-related-posts .ct-image-container {--borderRadius:5px;}.single .ct-comments {--width:100%;}.page .ct-comments {--width:100%;}.post-navigation {--margin:40px;}.ct-share-box[data-location="top"] {--margin:30px;}.ct-share-box[data-location="bottom"] {--margin:30px;}.post[data-structure*="boxed"] {--contentBoxedSpacing:40px;}.page[data-structure*="boxed"] {--contentBoxedSpacing:40px;}.author-box {--spacing:40px;}.author-box[data-type="type-1"] {--boxShadow:0px 50px 90px rgba(210, 213, 218, 0.4);}.footer-widgets {--widgetAreaSpacing:40px;}.footer-primary-area {--spacing:30px;}.footer-copyright {--spacing:15px;}.ct-passepartout {--passepartoutSize:0px;}</style>
-<link rel='stylesheet' id='wp-block-library-css'  href='./wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="./feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="./comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":".\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='./wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='./wp-includes/css/dist/block-library/theme.min.css?ver=5.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ce_responsive-css'  href='./wp-content/plugins/simple-embed-code/css/video-container.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='ct-main-styles-css'  href='./wp-content/themes/blocksy/static/bundle/main.css?ver=1.6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='./wp-content/themes/bam/assets/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bam-style-css'  href='./wp-content/themes/bam/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bam-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i|Roboto+Condensed%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i%26subset%3Dlatin' type='text/css' media='all' />
+<script type='text/javascript' src='./wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='./wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='./wp-json/index.html' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 5.3.2" />
-<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="./wp-content/uploads/2019/12/cropped-red-icon-32x32.png" sizes="32x32" />
+		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+				display: none;
+			}
+				</style>
+		<link rel="icon" href="./wp-content/uploads/2019/12/cropped-red-icon-32x32.png" sizes="32x32" />
 <link rel="icon" href="./wp-content/uploads/2019/12/cropped-red-icon-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="./wp-content/uploads/2019/12/cropped-red-icon-180x180.png" />
 <meta name="msapplication-TileImage" content="./wp-content/uploads/2019/12/cropped-red-icon-270x270.png" />
-</head>
 
-<body class="home blog ct-loading elementor-default" data-link="type-1" data-forms="classic" >
+		<style type="text/css" id="theme-custom-css">
+			/* Header CSS */
+                    .container {
+                        width: 2000px;
+                    }
+                /* Color CSS */
+                    .page-content a:hover,
+                    .entry-content a:hover {
+                        color: #00aeef;
+                    }
+                
+                    body.boxed-layout.custom-background,
+                    body.boxed-layout {
+                        background: #dddddd;
+                    }
+                
+                    body.boxed-layout.custom-background.separate-containers,
+                    body.boxed-layout.separate-containers {
+                        background: #dddddd;
+                    }
+                
+                    body.wide-layout.custom-background.separate-containers .site-content,
+                    body.wide-layout.separate-containers .site-content {
+                        background: #eeeeee;
+                    }
+                /* Header CSS */
+                        .site-header.default-style .main-navigation ul li a:hover { color: #a8d140; }
+                        .site-header.default-style .main-navigation .current_page_item > a, .site-header.default-style .main-navigation .current-menu-item > a, .site-header.default-style .main-navigation .current_page_ancestor > a, .site-header.default-style .main-navigation .current-menu-ancestor > a { color: #a8d140; }
+                    /* Footer CSS */
+                    .site-info {
+                        color: #ffffff;
+                    }		</style>
+
+	</head>
+
+<body class="home blog wp-custom-logo hfeed wide-layout right-sidebar separate-containers elementor-default">
 
 
-<div id="main-container">
-	<header id="header" data-device="desktop" itemscope="" itemtype="https://schema.org/WPHeader" ><div data-row="middle" data-columns="2" ><div class="ct-container" ><div data-column="start" data-placements="1" ><div data-items="primary" >
-<div
-	class="site-branding"
-	data-id="logo" 	itemscope="itemscope" itemtype="https://schema.org/Organization" >
 
-	<h1 class="site-title" itemprop="name" >
-					<a href="./index.html" rel="home" itemprop="url" >
-				WebTutplus			</a>
-			</h1>
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-	</div>
+	
+<div id="topbar" class="bam-topbar clearfix">
 
-</div></div><div data-column="end" data-placements="1" ><div data-items="primary" >
-<nav
-	id="header-menu-1"
-	class="header-menu-1"
-	data-id="menu" 	data-type="type-1"
-	data-dropdown-animation="type-1"
-		data-responsive	itemscope="" itemtype="http://schema.org/SiteNavigationElement" >
+    <div class="container-fluid">
 
-	<ul id="menu-footer_menu" class="menu"><li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="./about/index.html">About</a></li>
-</ul>
-</nav>
+                    <span class="bam-date">January 5, 2020</span>
+        
+        
+        
+<div class="bam-topbar-social colored">
 
+    
+        
+                    <span class="bam-social-icon">
+                                    <a href="http://www.facebook.com/" class="bam-social-link facebook" target="_blank" title="Facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                            </span>
+                
+    
+        
+                    <span class="bam-social-icon">
+                                    <a href="http://www.youtube.com/" class="bam-social-link youtube" target="_blank" title="Youtube">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+                            </span>
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                    <span class="bam-social-icon">
+                                    <a href="http://www.github.com/" class="bam-social-link github" target="_blank" title="Github">
+                        <i class="fa fa-github"></i>
+                    </a>
+                            </span>
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                    <span class="bam-social-icon">
+                                    <a href="mailto:sh.manmode@gmail.com" class="bam-social-link email" target="_self" title="Email">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                            </span>
+                
+    
+</div><!-- .bam-social-media -->
+    </div>
 
-<div
-	class="ct-header-search"
-	data-id="search" >
-
-	<a href="#search-modal">
-		<svg viewbox="0 0 10 10">
-			<path d="M9.7,9.7c-0.4,0.4-1,0.4-1.3,0L6.7,8.1C6.1,8.5,5.3,8.8,4.4,8.8C2,8.8,0,6.8,0,4.4S2,0,4.4,0s4.4,2,4.4,4.4		c0,0.9-0.3,1.7-0.7,2.4l1.7,1.7C10.1,8.8,10.1,9.4,9.7,9.7z M4.4,1.3c-1.7,0-3.1,1.4-3.1,3.1s1.4,3.1,3.1,3.1c1.7,0,3.1-1.4,3.1-3.1		S6.1,1.3,4.4,1.3z"/>
-		</svg>
-		<span hidden>Search</span>
-	</a>
 </div>
-</div></div></div></div></header>
-	<main
-		id="main" class="site-main hfeed"
-		itemscope="itemscope" itemtype="https://schema.org/CreativeWork" >
+	
+
+
+<header id="masthead" class="site-header default-style">
+
+    
+    
+
+<div id="site-header-inner" class="clearfix container-fluid left-logo">
+
+    <div class="site-branding">
+    <div class="site-branding-inner">
+
+                    <div class="site-logo-image"><a href="./index.html" class="custom-logo-link" rel="home"><img width="225" height="72" src="./wp-content/uploads/2019/12/cropped-icon.png" class="custom-logo" alt="" /></a></div>
+        
+        <div class="site-branding-text">
+                            <h1 class="site-title"><a href="./index.html" rel="home"></a></h1>
+                                <p class="site-description">The web is our playground</p>
+                    </div><!-- .site-branding-text -->
+
+    </div><!-- .site-branding-inner -->
+</div><!-- .site-branding -->
+        
+</div><!-- #site-header-inner -->
+
+
+
+<nav id="site-navigation" class="main-navigation">
+
+    <div id="site-navigation-inner" class="container align-left show-search">
+        
+        <div class="menu-header-_menu-container"><ul id="primary-menu" class="menu"><li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-101"><a href="./index.html" aria-current="page">Home</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="./about/index.html">About</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-102"><a href="./category/xamarin/index.html">Xamarin</a>
+<ul class="sub-menu">
+	<li id="menu-item-121" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-121"><a href="./category/xamarin/index.html">1</a></li>
+</ul>
+</li>
+</ul></div><div class="bam-search-button-icon">
+    <i class="fa fa-search" aria-hidden="true"></i>
+</div>
+<div class="bam-search-box-container">
+    <div class="bam-search-box">
+        <form role="search" method="get" class="search-form" action="./index.html">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>    </div><!-- th-search-box -->
+</div><!-- .th-search-box-container -->
+
+        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i>Menu</button>
+        
+    </div><!-- .container -->
+    
+</nav><!-- #site-navigation -->
+<div class="mobile-dropdown">
+    <nav class="mobile-navigation">
+        <div class="menu-header-_menu-container"><ul id="primary-menu" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-101"><a href="./index.html" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="./about/index.html">About</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-102"><a href="./category/xamarin/index.html">Xamarin</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-121"><a href="./category/xamarin/index.html">1</a></li>
+</ul>
+</li>
+</ul></div>    </nav>
+</div>
+
+    
+         
+</header><!-- #masthead -->
+
+
+	
+	<div id="content" class="site-content">
+		<div class="container">
+
+	
+	<div id="primary" class="content-area">
 
 		
+		<main id="main" class="site-main">
 
-<section id="primary" class="content-area">
-	<div class="ct-container" data-sidebar="right">
+						
+			<div id="blog-entries" class="blog-wrap clearfix grid-style th-grid-2">
 
-		<section>
-			
-												<div class="entries"
-						data-layout="grid"
-						data-cards="boxed"												data-columns="3"						>
 				
-<article
-	id="post-51" class="entry-card post-51 post type-post status-publish format-standard has-post-thumbnail hentry category-xamarin"	data-reveal="bottom:no">
+								
+				
+					
+					
+
+<article id="post-51" class="bam-entry clearfix grid-entry th-col-1 post-51 post type-post status-publish format-standard has-post-thumbnail hentry category-xamarin">
 
 	
-		<ul class="entry-meta" data-type="simple"  >
-			
-			
-			
-			
-			
-			<li class="ct-meta-categories" data-type="simple"><span class="ct-meta-element"><a href="./category/xamarin/index.html" rel="tag">Xamarin</a></span></li>				</ul>
+	<div class="blog-entry-inner clearfix">
+
+				
+		<div class="post-thumbnail">
+			<a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html" aria-hidden="true" tabindex="-1">
+				<img width="628" height="147" src="./wp-content/uploads/2019/12/device-info-e1577557613448.png" class="attachment-bam-featured size-bam-featured wp-post-image" alt="Xamarin.Essentials: Device Info In Android Using Xamarin.Forms" srcset="./wp-content/uploads/2019/12/device-info-e1577557613448.png 628w, ./wp-content/uploads/2019/12/device-info-e1577557613448-300x70.png 300w" sizes="(max-width: 628px) 100vw, 628px" />			</a>
+		</div>
 
 		
-	<h2 class="entry-title">
-		<a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html">
-			Xamarin.Essentials: Device Info In Android Using Xamarin.Forms		</a>
-	</h2>
+		<div class="blog-entry-content">
+
+			<div class="category-list">
+				<span class="cat-links"><a href="./category/xamarin/index.html" rel="category tag">Xamarin</a></span>			</div><!-- .category-list -->
+
+			<header class="entry-header">
+				<h2 class="entry-title"><a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html" rel="bookmark">Xamarin.Essentials: Device Info In Android Using Xamarin.Forms</a></h2>					<div class="entry-meta">
+						<span class="posted-on"><i class="fa fa-clock-o"></i><a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html" rel="bookmark"><time class="entry-date published" datetime="2019-12-28T16:40:02+00:00">December 28, 2019</time><time class="updated" datetime="2019-12-28T18:42:53+00:00">December 28, 2019</time></a></span><span class="comments-link"><i class="fa fa-comments-o"></i><a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html#respond">0</a></span>					</div><!-- .entry-meta -->
+							</header><!-- .entry-header -->
+
+			
+			<div class="entry-summary">
+				<p>Introduction In this article, we will see how to retrieve device info in Android using Xamarin.Forms. Step 1 Open Visual Studio&nbsp;→Click File → select New &hellip; </p>
+			</div><!-- .entry-summary -->
+
+			
+			<footer class="entry-footer">
+							</footer><!-- .entry-footer -->
+
+		</div><!-- .blog-entry-content -->
+
+	</div><!-- .blog-entry-inner -->
+
+</article><!-- #post-51 -->
+
+
+<article id="post-1" class="bam-entry clearfix grid-entry th-col-2 post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-xamarin">
 
 	
-	<div class="entry-excerpt">
-		Introduction In this article, we will see how to retrieve device info in Android using Xamarin.Forms. Step 1 Open Visual Studio&nbsp;→Click File → select New → select Project. →Cross-Platform →Blank App →Shared Project →then give your project a name and…	</div>
+	<div class="blog-entry-inner clearfix">
 
-	
-</article>
-
-<article
-	id="post-1" class="entry-card post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-xamarin"	data-reveal="bottom:no">
-
-	
-		<ul class="entry-meta" data-type="simple"  >
-			
-			
-			
-			
-			
-			<li class="ct-meta-categories" data-type="simple"><span class="ct-meta-element"><a href="./category/xamarin/index.html" rel="tag">Xamarin</a></span></li>				</ul>
+				
+		<div class="post-thumbnail">
+			<a href="./2019/12/28/hello-world/index.html" aria-hidden="true" tabindex="-1">
+				<img width="890" height="501" src="./wp-content/uploads/2020/01/sunrise.jpg" class="attachment-bam-featured size-bam-featured wp-post-image" alt="Hello world!" srcset="./wp-content/uploads/2020/01/sunrise.jpg 1600w, ./wp-content/uploads/2020/01/sunrise-300x169.jpg 300w, ./wp-content/uploads/2020/01/sunrise-1024x576.jpg 1024w, ./wp-content/uploads/2020/01/sunrise-768x432.jpg 768w, ./wp-content/uploads/2020/01/sunrise-1536x864.jpg 1536w" sizes="(max-width: 890px) 100vw, 890px" />			</a>
+		</div>
 
 		
-	<h2 class="entry-title">
-		<a href="./2019/12/28/hello-world/index.html">
-			Hello world!		</a>
-	</h2>
+		<div class="blog-entry-content">
+
+			<div class="category-list">
+				<span class="cat-links"><a href="./category/xamarin/index.html" rel="category tag">Xamarin</a></span>			</div><!-- .category-list -->
+
+			<header class="entry-header">
+				<h2 class="entry-title"><a href="./2019/12/28/hello-world/index.html" rel="bookmark">Hello world!</a></h2>					<div class="entry-meta">
+						<span class="posted-on"><i class="fa fa-clock-o"></i><a href="./2019/12/28/hello-world/index.html" rel="bookmark"><time class="entry-date published" datetime="2019-12-28T10:56:33+00:00">December 28, 2019</time><time class="updated" datetime="2020-01-05T19:09:22+00:00">January 5, 2020</time></a></span><span class="comments-link"><i class="fa fa-comments-o"></i><a href="./2019/12/28/hello-world/index.html#comments">1</a></span>					</div><!-- .entry-meta -->
+							</header><!-- .entry-header -->
+
+			
+			<div class="entry-summary">
+				<p>Remember the memories of your childhood when you accepted the challenge to solve some Jigsaw Puzzle, Complex Mathematics Problems, Tic-Tac-Toe, Sudoku or Rubik’s cube kinda… </p>
+			</div><!-- .entry-summary -->
+
+			
+			<footer class="entry-footer">
+							</footer><!-- .entry-footer -->
+
+		</div><!-- .blog-entry-content -->
+
+	</div><!-- .blog-entry-inner -->
+
+</article><!-- #post-1 -->
+
+					
+				
+			</div><!-- #blog-entries -->
+
+			
+					
+
+		</main><!-- #main -->
+
+		
+	</div><!-- #primary -->
 
 	
-	<div class="entry-excerpt">
-		Remember the memories of your childhood when you accepted the challenge to solve some Jigsaw Puzzle, Complex Mathematics Problems, Tic-Tac-Toe, Sudoku or Rubik’s cube kinda…	</div>
+
+
+<aside id="secondary" class="widget-area">
 
 	
-</article>
-
-									</div>
-						</section>
-
-		
-<aside
-	class="ct-hidden-sm ct-hidden-md"    data-type="type-2"
-	id="sidebar"
-	itemtype="https://schema.org/WPSideBar" itemscope="itemscope" role="complementary" >
-
-    <div
-		class="ct-sidebar" data-sticky		>
-		<div class="ct-widget widget_search">
-
-<form
-	role="search" method="get"
-	class="search-form"
-	action="./index.html"
-	data-live-results>
-	<div class="ct-search-input">
-		<input type="search"  placeholder="Search" value="" name="s" autocomplete="off" title="Search Input" />
-
-		<button class="search-submit">
-			<span hidden>Search</span>
-			<i>
-				<svg
-					width="12px"
-					height="12px"
-					viewbox="0 0 24 24">
-
-					<path d="M23.3,23.3c-0.9,0.9-2.3,0.9-3.2,0l-4-4c-1.6,1-3.6,1.7-5.7,1.7C4.7,21,0,16.3,0,10.5S4.7,0,10.5,0C16.3,0,21,4.7,21,10.5					c0,2.1-0.6,4-1.7,5.7l4,4C24.2,21,24.2,22.5,23.3,23.3z M10.5,3C6.4,3,3,6.4,3,10.5S6.4,18,10.5,18c4.1,0,7.5-3.4,7.5-7.5					C18,6.4,14.7,3,10.5,3z"/>
-				</svg>
-			</i>
-
-			<span data-loader="circles"><span></span><span></span><span></span></span>
-		</button>
-
-		
-		
-
-	</div>
-</form>
-
-
-</div><div class="ct-widget widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
+	<section id="categories-2" class="widget widget_categories"><h4 class="widget-title">Categories</h4>		<ul>
 				<li class="cat-item cat-item-1"><a href="./category/xamarin/index.html">Xamarin</a>
 </li>
 		</ul>
-			</div>		<div class="ct-widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
-											<li>
-					<a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html">Xamarin.Essentials: Device Info In Android Using Xamarin.Forms</a>
-									</li>
-											<li>
-					<a href="./2019/12/28/hello-world/index.html">Hello world!</a>
-									</li>
-					</ul>
-		</div><div class="ct-widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow ugc' class='url'>A WordPress Commenter</a></span> on <a href="./2019/12/28/hello-world/index.html#comment-1">Hello world!</a></li></ul></div><div class="ct-widget widget_archive"><h2 class="widget-title">Archives</h2>		<ul>
+			</section><section id="sidebar_posts-6" class="widget widget_sidebar_posts">		<div class="bam-category-posts">
+		<h4 class="widget-title">Latest Posts</h4>
+		
+			
+								<div class="bms-post clearfix">
+													<div class="bms-thumb">
+								<a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html" rel="bookmark" title="Xamarin.Essentials: Device Info In Android Using Xamarin.Forms">	
+									<img width="120" height="28" src="./wp-content/uploads/2019/12/device-info-e1577557613448.png" class="attachment-bam-small size-bam-small wp-post-image" alt="" srcset="./wp-content/uploads/2019/12/device-info-e1577557613448.png 628w, ./wp-content/uploads/2019/12/device-info-e1577557613448-300x70.png 300w" sizes="(max-width: 120px) 100vw, 120px" />								</a>
+							</div>
+												<div class="bms-details">
+							<h3 class="bms-title"><a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html" rel="bookmark">Xamarin.Essentials: Device Info In Android Using Xamarin.Forms</a></h3>							<div class="entry-meta"><span class="posted-on"><i class="fa fa-clock-o"></i><a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html" rel="bookmark"><time class="entry-date published" datetime="2019-12-28T16:40:02+00:00">December 28, 2019</time><time class="updated" datetime="2019-12-28T18:42:53+00:00">December 28, 2019</time></a></span></div>
+						</div>
+					</div><!-- .bms-post -->
+								<div class="bms-post clearfix">
+													<div class="bms-thumb">
+								<a href="./2019/12/28/hello-world/index.html" rel="bookmark" title="Hello world!">	
+									<img width="120" height="68" src="./wp-content/uploads/2020/01/sunrise.jpg" class="attachment-bam-small size-bam-small wp-post-image" alt="" srcset="./wp-content/uploads/2020/01/sunrise.jpg 1600w, ./wp-content/uploads/2020/01/sunrise-300x169.jpg 300w, ./wp-content/uploads/2020/01/sunrise-1024x576.jpg 1024w, ./wp-content/uploads/2020/01/sunrise-768x432.jpg 768w, ./wp-content/uploads/2020/01/sunrise-1536x864.jpg 1536w" sizes="(max-width: 120px) 100vw, 120px" />								</a>
+							</div>
+												<div class="bms-details">
+							<h3 class="bms-title"><a href="./2019/12/28/hello-world/index.html" rel="bookmark">Hello world!</a></h3>							<div class="entry-meta"><span class="posted-on"><i class="fa fa-clock-o"></i><a href="./2019/12/28/hello-world/index.html" rel="bookmark"><time class="entry-date published" datetime="2019-12-28T10:56:33+00:00">December 28, 2019</time><time class="updated" datetime="2020-01-05T19:09:22+00:00">January 5, 2020</time></a></span></div>
+						</div>
+					</div><!-- .bms-post -->
+								        
+        </div><!-- .bam-category-posts -->
+
+
+	</section><section id="calendar-3" class="widget widget_calendar"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>January 2020</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="./2019/12/index.html">&laquo; Dec</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="2" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td id="today">5</td>
+	</tr>
+	<tr>
+		<td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
+	</tr>
+	<tr>
+		<td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
+	</tr>
+	<tr>
+		<td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td>
+	</tr>
+	<tr>
+		<td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="2">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></section><section id="archives-2" class="widget widget_archive"><h4 class="widget-title">Archives</h4>		<ul>
 				<li><a href='./2019/12/index.html'>December 2019</a></li>
 		</ul>
-			</div><div class="ct-widget widget_meta"><h2 class="widget-title">Meta</h2>			<ul>
+			</section><section id="meta-2" class="widget widget_meta"><h4 class="widget-title">Meta</h4>			<ul>
 						<li><a href="./wp-login.php">Log in</a></li>
 			<li><a href="./feed/index.html">Entries feed</a></li>
 			<li><a href="./comments/feed/index.html">Comments feed</a></li>
 			<li><a href="https://wordpress.org/">WordPress.org</a></li>			</ul>
-			</div>	</div>
-</aside>
+			</section>
+	
+</aside><!-- #secondary -->
 
-	</div>
-</section>
-
+	</div><!-- .container -->
+	</div><!-- #content -->
 
 	
-	</main>
-
-	<footer class="site-footer" itemscope="" itemtype="https://schema.org/WPFooter" ><div class="footer-inner" ><div data-row="top" ><div class="ct-container" data-stack="tablet" ><div data-column="socials" >
-<div
-	class="ct-footer-socials"
-	>
-
 	
-		<div class="ct-social-box" data-type="simple" data-size="custom" data-color="official" >
-			
-							
-				<a
-					href="#"
-					target="_blank"
-					data-network="facebook">
-					
-				<svg
-				width="20px"
-				height="20px"
-				viewbox="0 0 20 20">
-					<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"/>
-				</svg>
-			
-					<span class="ct-label" hidden="" >
-						Facebook					</span>
-				</a>
-							
-				<a
-					href="#"
-					target="_blank"
-					data-network="twitter">
-					
-				<svg
-				width="20px"
-				height="20px"
-				viewbox="0 0 20 20">
-					<path d="M20,3.8c-0.7,0.3-1.5,0.5-2.4,0.6c0.8-0.5,1.5-1.3,1.8-2.3c-0.8,0.5-1.7,0.8-2.6,1c-0.7-0.8-1.8-1.3-3-1.3c-2.3,0-4.1,1.8-4.1,4.1c0,0.3,0,0.6,0.1,0.9C6.4,6.7,3.4,5.1,1.4,2.6C1,3.2,0.8,3.9,0.8,4.7c0,1.4,0.7,2.7,1.8,3.4C2,8.1,1.4,7.9,0.8,7.6c0,0,0,0,0,0.1c0,2,1.4,3.6,3.3,4c-0.3,0.1-0.7,0.1-1.1,0.1c-0.3,0-0.5,0-0.8-0.1c0.5,1.6,2,2.8,3.8,2.8c-1.4,1.1-3.2,1.8-5.1,1.8c-0.3,0-0.7,0-1-0.1c1.8,1.2,4,1.8,6.3,1.8c7.5,0,11.7-6.3,11.7-11.7c0-0.2,0-0.4,0-0.5C18.8,5.3,19.4,4.6,20,3.8z"/>
-				</svg>
-			
-					<span class="ct-label" hidden="" >
-						Twitter					</span>
-				</a>
-							
-				<a
-					href="#"
-					target="_blank"
-					data-network="instagram">
-					
-				<svg
-				width="20"
-				height="20"
-				viewbox="0 0 20 20">
-					<circle cx="10" cy="10" r="3.3"/>
-					<path d="M14.2,0H5.8C2.6,0,0,2.6,0,5.8v8.3C0,17.4,2.6,20,5.8,20h8.3c3.2,0,5.8-2.6,5.8-5.8V5.8C20,2.6,17.4,0,14.2,0zM10,15c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S12.8,15,10,15z M15.8,5C15.4,5,15,4.6,15,4.2s0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8S16.3,5,15.8,5z"/>
-				</svg>
-			
-					<span class="ct-label" hidden="" >
-						Instagram					</span>
-				</a>
-							
-				<a
-					href="#"
-					target="_blank"
-					data-network="pinterest">
-					
-				<svg
-				width="20px"
-				height="20px"
-				viewbox="0 0 20 20">
-					<path d="M10,0C4.5,0,0,4.5,0,10c0,4.1,2.5,7.6,6,9.2c0-0.7,0-1.5,0.2-2.3c0.2-0.8,1.3-5.4,1.3-5.4s-0.3-0.6-0.3-1.6c0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5c0,0.9-0.6,2.3-0.9,3.5c-0.3,1.1,0.5,1.9,1.6,1.9c1.9,0,3.2-2.4,3.2-5.3c0-2.2-1.5-3.8-4.2-3.8c-3,0-4.9,2.3-4.9,4.8c0,0.9,0.3,1.5,0.7,2C6,12,6.1,12.1,6,12.4c0,0.2-0.2,0.6-0.2,0.8c-0.1,0.3-0.3,0.3-0.5,0.3c-1.4-0.6-2-2.1-2-3.8c0-2.8,2.4-6.2,7.1-6.2c3.8,0,6.3,2.8,6.3,5.7c0,3.9-2.2,6.9-5.4,6.9c-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.2,0.8-0.6,1.5-1,2.1C8.1,19.9,9,20,10,20c5.5,0,10-4.5,10-10C20,4.5,15.5,0,10,0z"/>
-				</svg>
-			
-					<span class="ct-label" hidden="" >
-						Pinterest					</span>
-				</a>
-							
-				<a
-					href="#"
-					target="_blank"
-					data-network="linkedin">
-					
-				<svg
-				width="20px"
-				height="20px"
-				viewbox="0 0 20 20">
-					<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"/>
-				</svg>
-			
-					<span class="ct-label" hidden="" >
-						LinkedIn					</span>
-				</a>
-							
-				<a
-					href="#"
-					target="_blank"
-					data-network="medium">
-					
-				<svg
-				width="20"
-				height="20"
-				viewbox="0 0 20 20">
-					<path d="M2.4,5.3c0-0.2-0.1-0.5-0.3-0.7L0.3,2.4V2.1H6l4.5,9.8l3.9-9.8H20v0.3l-1.6,1.5c-0.1,0.1-0.2,0.3-0.2,0.4v11.2c0,0.2,0,0.3,0.2,0.4l1.6,1.5v0.3h-7.8v-0.3l1.6-1.6c0.2-0.2,0.2-0.2,0.2-0.4V6.5L9.4,17.9H8.8L3.6,6.5v7.6c0,0.3,0.1,0.6,0.3,0.9L6,17.6v0.3H0v-0.3L2.1,15c0.2-0.2,0.3-0.6,0.3-0.9V5.3z"/>
-				</svg>
-			
-					<span class="ct-label" hidden="" >
-						Medium					</span>
-				</a>
-			
-					</div>
+	<footer id="colophon" class="site-footer">
 
-	</div>
+		
+		
+		<div class="footer-widget-area clearfix th-columns-3">
+			<div class="container">
+				<div class="footer-widget-area-inner">
+					<div class="col column-1">
+						<section id="sidebar_posts-4" class="widget widget_sidebar_posts">		<div class="bam-category-posts">
+		<h4 class="widget-title">Latest Posts</h4>
+		
+			
+								<div class="bms-post clearfix">
+													<div class="bms-thumb">
+								<a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html" rel="bookmark" title="Xamarin.Essentials: Device Info In Android Using Xamarin.Forms">	
+									<img width="120" height="28" src="./wp-content/uploads/2019/12/device-info-e1577557613448.png" class="attachment-bam-small size-bam-small wp-post-image" alt="" srcset="./wp-content/uploads/2019/12/device-info-e1577557613448.png 628w, ./wp-content/uploads/2019/12/device-info-e1577557613448-300x70.png 300w" sizes="(max-width: 120px) 100vw, 120px" />								</a>
+							</div>
+												<div class="bms-details">
+							<h3 class="bms-title"><a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html" rel="bookmark">Xamarin.Essentials: Device Info In Android Using Xamarin.Forms</a></h3>							<div class="entry-meta"><span class="posted-on"><i class="fa fa-clock-o"></i><a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html" rel="bookmark"><time class="entry-date published" datetime="2019-12-28T16:40:02+00:00">December 28, 2019</time><time class="updated" datetime="2019-12-28T18:42:53+00:00">December 28, 2019</time></a></span></div>
+						</div>
+					</div><!-- .bms-post -->
+								<div class="bms-post clearfix">
+													<div class="bms-thumb">
+								<a href="./2019/12/28/hello-world/index.html" rel="bookmark" title="Hello world!">	
+									<img width="120" height="68" src="./wp-content/uploads/2020/01/sunrise.jpg" class="attachment-bam-small size-bam-small wp-post-image" alt="" srcset="./wp-content/uploads/2020/01/sunrise.jpg 1600w, ./wp-content/uploads/2020/01/sunrise-300x169.jpg 300w, ./wp-content/uploads/2020/01/sunrise-1024x576.jpg 1024w, ./wp-content/uploads/2020/01/sunrise-768x432.jpg 768w, ./wp-content/uploads/2020/01/sunrise-1536x864.jpg 1536w" sizes="(max-width: 120px) 100vw, 120px" />								</a>
+							</div>
+												<div class="bms-details">
+							<h3 class="bms-title"><a href="./2019/12/28/hello-world/index.html" rel="bookmark">Hello world!</a></h3>							<div class="entry-meta"><span class="posted-on"><i class="fa fa-clock-o"></i><a href="./2019/12/28/hello-world/index.html" rel="bookmark"><time class="entry-date published" datetime="2019-12-28T10:56:33+00:00">December 28, 2019</time><time class="updated" datetime="2020-01-05T19:09:22+00:00">January 5, 2020</time></a></span></div>
+						</div>
+					</div><!-- .bms-post -->
+								        
+        </div><!-- .bam-category-posts -->
 
-</div><div data-column="menu" >
-<nav
-	id="footer-menu"
-	class="footer-menu"
-		data-stretch	itemscope="" itemtype="http://schema.org/SiteNavigationElement" >
 
-	<ul id="menu-footer_menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="./about/index.html">About</a></li>
-</ul>
-</nav>
-</div></div></div><div data-row="middle" ><div class="ct-container" data-divider="columns" data-stack="tablet" ><div data-column="widget-area-1" >		<div class="ct-widget widget_recent_entries">		<h2 class="widget-title">Popular Posts</h2>		<ul>
-											<li>
-					<a href="./2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html">Xamarin.Essentials: Device Info In Android Using Xamarin.Forms</a>
-											<span class="post-date">December 28, 2019</span>
-									</li>
-											<li>
-					<a href="./2019/12/28/hello-world/index.html">Hello world!</a>
-											<span class="post-date">December 28, 2019</span>
-									</li>
-					</ul>
-		</div></div><span data-column></span><div data-column="widget-area-3" ><div class="ct-widget widget_text"><h2 class="widget-title">Contact Info</h2>			<div class="textwidget entry-content"><p>Drop me a mail</p>
-</div>
-		</div><div class="ct-widget widget_text"><h2 class="widget-title">Address:</h2>			<div class="textwidget entry-content"><p>Bangalore</p>
+	</section>					</div>
+
+											<div class="col column-2">
+							<section id="media_image-3" class="widget widget_media_image"><h4 class="widget-title">Instagram</h4><img width="239" height="211" src="./wp-content/uploads/2019/12/red-icon.png" class="image wp-image-47  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" /></section>						</div>
+					
+											<div class="col column-3">
+							<section id="text-9" class="widget widget_text"><h4 class="widget-title">CONTACT INFO</h4>			<div class="textwidget"><p>Drop a mail</p>
+<p><strong>Address:</strong></p>
+<p>Bangalore</p>
 <p><strong>Phone:</strong></p>
 <p>8793463138</p>
 </div>
-		</div></div></div></div><div data-row="bottom" ><div class="ct-container" ><div data-column="copyright" >
-<div
-	class="ct-footer-copyright"
-	>
+		</section>						</div>
+					
+									</div><!-- .footer-widget-area-inner -->
+			</div><!-- .container -->
+		</div><!-- .footer-widget-area -->
 
-	<p>Copyright © 2019 WebTutplus - some rights reserved</p></div>
-</div></div></div></div></footer></div>
+		<div class="site-info clearfix">
+			<div class="container">
+				<div class="copyright-container">
+					Copyright © 2019 WebTutplus - some rights reserved
+					Powered by <a href="https://wordpress.org/" target="_blank">WordPress</a> and <a href="https://themezhut.com/themes/bam/" target="_blank">Bam</a>.				</div><!-- .copyright-container -->
+			</div><!-- .container -->
+		</div><!-- .site-info -->
 
-
-	<a href="#" class="ct-back-to-top ct-hidden-sm"
-		data-shape="square"
-		data-alignment="right"
-		title="Go to top">
-
-		<svg width="12" height="12" viewbox="0 0 20 20"><path d="M10,0L9.4,0.6L0.8,9.1l1.2,1.2l7.1-7.1V20h1.7V3.3l7.1,7.1l1.2-1.2l-8.5-8.5L10,0z"/></svg>
 		
-	</a>
+	</footer><!-- #colophon -->
 
 	
-		<div id="search-modal" class="ct-panel" data-behaviour="modal">
-			<div class="close-button">
-				<span class="lines-button close"></span>
-			</div>
-
-			<div class="content-container" data-align="middle">
-				
-
-<form
-	role="search" method="get"
-	class="search-form"
-	action="./index.html"
-	data-live-results>
-	<div class="ct-search-input">
-		<input type="search" class="modal-field" placeholder="Search" value="" name="s" autocomplete="off" title="Search Input" />
-
-		<button class="search-submit">
-			<span hidden>Search</span>
-			<i>
-				<svg
-					width="12px"
-					height="12px"
-					viewbox="0 0 24 24">
-
-					<path d="M23.3,23.3c-0.9,0.9-2.3,0.9-3.2,0l-4-4c-1.6,1-3.6,1.7-5.7,1.7C4.7,21,0,16.3,0,10.5S4.7,0,10.5,0C16.3,0,21,4.7,21,10.5					c0,2.1-0.6,4-1.7,5.7l4,4C24.2,21,24.2,22.5,23.3,23.3z M10.5,3C6.4,3,3,6.4,3,10.5S6.4,18,10.5,18c4.1,0,7.5-3.4,7.5-7.5					C18,6.4,14.7,3,10.5,3z"/>
-				</svg>
-			</i>
-
-			<span data-loader="circles"><span></span><span></span><span></span></span>
-		</button>
-
-		
-		
-
-	</div>
-</form>
+</div><!-- #page -->
 
 
-			</div>
-		</div>
-
-		
-<a class="skip-link screen-reader-text" href="#primary">
-Skip to content</a>
-
-
-<div id="offcanvas" class="ct-panel" data-behaviour="right-side" data-device="mobile" ><div class="close-button">
-				<span class="lines-button close"></span>
-			</div><div class="content-container" ><section data-align="left" >
-<nav class="mobile-menu" data-id="mobile-menu" data-type="type-1" >
-	<ul id="menu-footer_menu-2" class=""><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="./about/index.html">About</a></li>
-</ul></nav>
-
-<div
-	class="ct-header-cta"
-	data-id="button" >
-
-	<a
-		href=""
-		class="ct-button"
-		data-type="type-1"
-		data-size="medium"
-				>
-		Download	</a>
-</div>
-</section></div></div>
-
-<script id="ct-header-template-desktop" type="text-template/desktop" ><header id="header" data-device="desktop" itemscope="" itemtype="https://schema.org/WPHeader" ><div data-row="middle" data-columns="2" ><div class="ct-container" ><div data-column="start" data-placements="1" ><div data-items="primary" >
-<div
-	class="site-branding"
-	data-id="logo" 	itemscope="itemscope" itemtype="https://schema.org/Organization" >
-
-	<h1 class="site-title" itemprop="name" >
-					<a href="./" rel="home" itemprop="url" >
-				WebTutplus			</a>
-			</h1>
-
-	</div>
-
-</div></div><div data-column="end" data-placements="1" ><div data-items="primary" >
-<nav
-	id="header-menu-1"
-	class="header-menu-1"
-	data-id="menu" 	data-type="type-1"
-	data-dropdown-animation="type-1"
-		data-responsive	itemscope="" itemtype="http://schema.org/SiteNavigationElement" >
-
-	<ul id="menu-footer_menu-3" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="./about/">About</a></li>
-</ul>
-</nav>
-
-
-<div
-	class="ct-header-search "
-	data-id="search" >
-
-	<a href="#search-modal">
-		<svg viewBox="0 0 10 10">
-			<path d="M9.7,9.7c-0.4,0.4-1,0.4-1.3,0L6.7,8.1C6.1,8.5,5.3,8.8,4.4,8.8C2,8.8,0,6.8,0,4.4S2,0,4.4,0s4.4,2,4.4,4.4
-		c0,0.9-0.3,1.7-0.7,2.4l1.7,1.7C10.1,8.8,10.1,9.4,9.7,9.7z M4.4,1.3c-1.7,0-3.1,1.4-3.1,3.1s1.4,3.1,3.1,3.1c1.7,0,3.1-1.4,3.1-3.1
-		S6.1,1.3,4.4,1.3z"/>
-		</svg>
-		<span hidden>Search</span>
-	</a>
-</div>
-</div></div></div></div></header></script><script id="ct-header-template-mobile" type="text-template/mobile" ><header id="header" data-device="mobile" itemscope="" itemtype="https://schema.org/WPHeader" ><div data-row="middle" data-columns="2" ><div class="ct-container" ><div data-column="start" data-placements="1" ><div data-items="primary" >
-<div
-	class="site-branding"
-	data-id="logo" 	itemscope="itemscope" itemtype="https://schema.org/Organization" >
-
-	<h1 class="site-title" itemprop="name" >
-					<a href="./" rel="home" itemprop="url" >
-				WebTutplus			</a>
-			</h1>
-
-	</div>
-
-</div></div><div data-column="end" data-placements="1" ><div data-items="primary" >
-<div
-	class="ct-header-trigger"
-	data-id="trigger" >
-	<a href="#offcanvas" class="mobile-menu-toggle">
-		<span
-			class="lines-button"
-			data-type="type-1">
-		</span>
-	</a>
-</div>
-
-</div></div></div></div></header></script><script type='text/javascript' src='./wp-content/themes/blocksy/static/bundle/events.js?ver=1.6.5'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var ct_localizations = {"ajax_url":".\/wp-admin\/admin-ajax.php","nonce":"d3c9b1c60b","public_url":".\/wp-content\/themes\/blocksy\/static\/bundle\/","rest_url":".\/wp-json\/","search_url":".\/search\/QUERY_STRING\/","show_more_text":"Show more","more_text":"More","internet_explorer_template":"<div class=\"ct-unsuported-browser\">\n\t<svg width=\"120px\" height=\"120px\" viewBox=\"0 0 100 100\">\n\t\t<path d=\"M14.8,54.7c-1.3,0-2.3-1-2.3-2.3v-4.7c0-1.3,1-2.3,2.3-2.3s2.3,1,2.3,2.3v4.7C17.2,53.7,16.1,54.7,14.8,54.7zM35.6,79.6l-4.1-2.3c-1.1-0.6-2.6-0.2-3.2,0.9s-0.2,2.6,0.9,3.2l4.1,2.3c0.4,0.2,0.8,0.3,1.2,0.3c0.8,0,1.6-0.4,2-1.2C37.1,81.7,36.7,80.2,35.6,79.6z M68.4,77.3l-4.1,2.3c-1.1,0.6-1.5,2.1-0.9,3.2c0.5,0.8,1.2,1.2,2,1.2c0.4,0,0.8-0.1,1.2-0.3l4.1-2.3c1.1-0.6,1.5-2.1,0.9-3.2S69.5,76.6,68.4,77.3zM82.8,47.7v4.7c0,1.3,1,2.3,2.3,2.3s2.3-1,2.3-2.3v-4.7c0-1.3-1-2.3-2.3-2.3S82.8,46.3,82.8,47.7zM70.8,18.7l-4.1-2.3c-1.1-0.6-2.6-0.2-3.2,0.9s-0.2,2.6,0.9,3.2l4.1,2.3c0.4,0.2,0.8,0.3,1.2,0.3c0.8,0,1.6-0.4,2-1.2C72.3,20.8,71.9,19.3,70.8,18.7zM33.3,16.3l-4.1,2.3c-1.1,0.6-1.5,2.1-0.9,3.2c0.5,0.8,1.2,1.2,2,1.2c0.4,0,0.8-0.1,1.2-0.3l4.1-2.3c1.1-0.6,1.5-2.1,0.9-3.2S34.4,15.7,33.3,16.3z M60.2,10.2c0,5.6-4.5,10.2-10.2,10.2s-10.2-4.5-10.2-10.2S44.4,0,50,0S60.2,4.5,60.2,10.2zM55.5,10.2c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S55.5,13.2,55.5,10.2z M60.2,89.8c0,5.6-4.5,10.2-10.2,10.2s-10.2-4.5-10.2-10.2S44.4,79.7,50,79.7S60.2,84.2,60.2,89.8zM55.5,89.8c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S55.5,92.9,55.5,89.8zM95.3,70.3c0,5.6-4.5,10.2-10.2,10.2S75,75.9,75,70.3s4.5-10.2,10.2-10.2S95.3,64.7,95.3,70.3zM90.6,70.3c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S90.6,73.4,90.6,70.3zM75,29.7c0-5.6,4.5-10.2,10.2-10.2s10.2,4.5,10.2,10.2s-4.5,10.2-10.2,10.2S75,35.3,75,29.7zM79.7,29.7c0,3,2.4,5.5,5.5,5.5s5.5-2.4,5.5-5.5s-2.4-5.5-5.5-5.5S79.7,26.6,79.7,29.7z M25,29.7c0,5.6-4.5,10.2-10.2,10.2S4.7,35.3,4.7,29.7s4.5-10.2,10.2-10.2S25,24.1,25,29.7zM20.3,29.7c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S20.3,32.7,20.3,29.7zM25,70.3c0,5.6-4.5,10.2-10.2,10.2S4.7,75.9,4.7,70.3s4.5-10.2,10.2-10.2S25,64.7,25,70.3z M20.3,70.3c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S20.3,73.4,20.3,70.3z\"\/>\n\t\t<path d=\"M64.6,52.7c0,1-1.9,3.9-4.8,5.3c-1.7,0.9-7-3.4-5.9-4.8s3.4,0.5,4.7-0.5C63.2,49.5,64.6,51.6,64.6,52.7zM71.9,50c0,12-9.8,21.9-21.9,21.9S28.1,62,28.1,50S38,28.1,50,28.1S71.9,38,71.9,50z M67.2,50c0-1.6-0.2-3.1-0.8-4.5l-1.2-0.3h-1.8c-1.1,0-2.1-0.5-2.7-1.3C59.8,42.7,59,41,58.4,41c-0.8,0-2.1,5.5-4.8,5.5c-2.1,0-3.9-4.6-3.3-6.2c0.9-2.3,2.8-1.8,4.8-2.7c0.9-0.4,1.5-1.3,1.5-2.3v-1.2c-2-0.9-4.2-1.3-6.6-1.3c-8.6,0-15.7,6.3-17.1,14.6l1.2-0.1c0.7,0.1,1.3,0.4,1.4,0.9c0.3,2-1.8,2.7-1.2,4.3c0.5,1.5,2.5,2,3.5,1c1-0.9,2.2-3,2.4-4.9c0.3-3.3,4.4-4.8,6.1-1.8c0.5,0.9,0.2,2.5-0.8,3.6s-2.7,2-2.6,3.4c0.2,1.2,4.8,1.4,3.4,6.7c-0.2,0.8-0.6,1.5-1,2.1c-0.3,0.5-0.7,0.9-1.2,1.3c-0.7,0.5-1.4,0.9-2,1.2H42c2.4,1.2,5.2,2,8,2C59.5,67.2,67.2,59.5,67.2,50z\"\/>\n\t<\/svg>\n\n\n\t<h2>\n\t\tYou are using an old or unsupported browser\n\t<\/h2>\n\n\t<p>\n\t\tFor <b><a href=\"https:\/\/mashable.com\/article\/internet-explorer-vulnerability-just-stop-using-it\/\" target=\"_blank\">security reasons<\/a><\/b> and to get the most out of your theme please upgrade to the latest version of <a href=\"https:\/\/www.microsoft.com\/en-us\/windows\/microsoft-edge\" target=\"_blank\">your browser<\/a> or use one of these browsers instead <a href=\"https:\/\/www.google.com\/chrome\/\" target=\"_blank\">Chrome<\/a>, <a href=\"https:\/\/support.apple.com\/downloads\/safari\" target=\"_blank\">Safari<\/a> or <a href=\"https:\/\/www.mozilla.org\/en-US\/firefox\/new\/\" target=\"_blank\">Firefox<\/a>.\n\t<\/p>\n<\/div>\n\n"};
-/* ]]> */
-</script>
-<script async type='text/javascript' src='./wp-content/themes/blocksy/static/bundle/main.js?ver=1.6.5'></script>
+<script type='text/javascript' src='./wp-content/themes/bam/assets/js/scripts.js?ver=5.3.2'></script>
+<script type='text/javascript' src='./wp-content/themes/bam/assets/js/main-navigation.js?ver=5.3.2'></script>
+<script type='text/javascript' src='./wp-content/themes/bam/assets/js/skip-link-focus-fix.js?ver=20151215'></script>
 <script type='text/javascript' src='./wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
-
 </body>
 </html>

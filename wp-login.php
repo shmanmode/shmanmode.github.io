@@ -7,7 +7,7 @@
 	<!--<![endif]-->
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Log In &lsaquo; WebTutplus &#8212; WordPress</title>
+	<title>Log In &lsaquo;  &#8212; WordPress</title>
 	<link rel='dns-prefetch' href='//s.w.org' />
 <link rel='stylesheet' id='dashicons-css'  href='./wp-includes/css/dashicons.min.css?ver=5.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='buttons-css'  href='./wp-includes/css/buttons.min.css?ver=5.3.2' type='text/css' media='all' />
@@ -60,7 +60,7 @@
 wp_attempt_focus();
 if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 				<p id="backtoblog"><a href="./index.html">
-		&larr; Back to WebTutplus		</a></p>
+		&larr; Back to 		</a></p>
 			</div>
 	<script type='text/javascript' src='./wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 <script type='text/javascript' src='./wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>

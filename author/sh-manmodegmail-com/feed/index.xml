@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>sh.manmode@gmail.com &#8211; WebTutplus</title>
+	<title>sh.manmode@gmail.com</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>The web is our playground</description>
-	<lastBuildDate>Sat, 28 Dec 2019 18:27:22 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 05 Jan 2020 19:09:22 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>./../../../wp-content/uploads/2019/12/cropped-red-icon-32x32.png</url>
-	<title>sh.manmode@gmail.com &#8211; WebTutplus</title>
+	<title>sh.manmode@gmail.com</title>
 	<link>./../../../index.html</link>
 	<width>32</width>
 	<height>32</height>
@@ -36,7 +36,7 @@
 				<category><![CDATA[Xamarin]]></category>
 
 		<guid isPermaLink="false">./../../../index.html?p=51</guid>
-				<description><![CDATA[Introduction In this article, we will see how to retrieve device info in Android using Xamarin.Forms. Step 1 Open Visual Studio&#160;→Click File → select New → select Project. →Cross-Platform →Blank App →Shared Project →then give your project a name and location and click the “OK” button. Step 2 Right, Click on Solution(App_Name) →Manage NuGet Packages for Solution →Install&#160;Xam.Plugin.DeviceInfo&#160;package. Step 3 We are creating Labels, texts, and font attributes inside the layout. like “ID”, “IDIOM”, “MODEL”, “PLATFORM”, “VERSION”. Step 4 This code is for Deviceinfo Plugin using Id, idiom, model, and platform, version Idioms DeviceIdiom.Phone&#160;— Phone DeviceIdiom.Tablet&#160;— Tablet DeviceIdiom.Desktop&#160;— Desktop DeviceIdiom.TV&#160;—…]]></description>
+				<description><![CDATA[Introduction In this article, we will see how to retrieve device info in Android using Xamarin.Forms. Step 1 Open Visual Studio&#160;→Click File → select New &#8230; ]]></description>
 								<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="51" class="elementor elementor-51" data-elementor-settings="[]">
 			<div class="elementor-inner">
 				<div class="elementor-section-wrap">
@@ -46,6 +46,12 @@
 				<div class="elementor-element elementor-element-89ed60a elementor-column elementor-col-100 elementor-top-column" data-id="89ed60a" data-element_type="column">
 			<div class="elementor-column-wrap  elementor-element-populated">
 					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5ed76df elementor-widget elementor-widget-image" data-id="5ed76df" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="582" src="./../../../wp-content/uploads/2019/12/device-info-1024x582.png" class="attachment-large size-large" alt="" srcset="./../../../wp-content/uploads/2019/12/device-info-1024x582.png 1024w, ./../../../wp-content/uploads/2019/12/device-info-768x437.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
 				<div class="elementor-element elementor-element-551e09d elementor-widget elementor-widget-text-editor" data-id="551e09d" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-text-editor elementor-clearfix"><h1 id="a401" class="ja jb cm ar aq ee ho jc hq jd je jf jg jh ji jj jk" style="box-sizing: inherit; margin-top: 1.95em; margin-bottom: -0.28em; font-family: medium-content-sans-serif-font, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Arial, sans-serif; font-style: normal; color: rgba(0, 0, 0, 0.84); font-weight: 600; line-height: 1.12; letter-spacing: -0.022em; font-size: 34px; text-align: start; text-transform: none; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;" data-selectable-paragraph=""><span class="bu" style="box-sizing: inherit; font-weight: inherit;">Introduction</span></h1><p id="08e5" class="jl jm cm ar jn b jo jp jq jr js jt ju jv jw jx jy" style="box-sizing: inherit; margin-top: 0.86em; margin-bottom: -0.46em; font-weight: 400; font-style: normal; color: rgba(0, 0, 0, 0.84); line-height: 1.58; letter-spacing: -0.004em; font-family: medium-content-serif-font, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 21px; text-align: start; text-transform: none; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;" data-selectable-paragraph="">In this article, we will see how to retrieve device info in Android using Xamarin.Forms.</p><p id="4e30" class="jl jm cm ar jn b jo jz jq ka js kb ju kc jw kd jy" style="box-sizing: inherit; margin-top: 2em; margin-bottom: -0.46em; font-weight: 400; font-style: normal; color: rgba(0, 0, 0, 0.84); line-height: 1.58; letter-spacing: -0.004em; font-family: medium-content-serif-font, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 21px; text-align: start; text-transform: none; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;" data-selectable-paragraph=""><span class="jn ke" style="box-sizing: inherit; font-weight: bold;">Step 1</span></p><p id="421f" class="jl jm cm ar jn b jo jz jq ka js kb ju kc jw kd jy" style="box-sizing: inherit; margin-top: 2em; margin-bottom: -0.46em; font-weight: 400; font-style: normal; color: rgba(0, 0, 0, 0.84); line-height: 1.58; letter-spacing: -0.004em; font-family: medium-content-serif-font, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 21px; text-align: start; text-transform: none; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;" data-selectable-paragraph=""><span class="jn ke" style="box-sizing: inherit; font-weight: bold;">Open Visual Studio</span> →Click File → select New → select Project. →Cross-Platform →Blank App →Shared Project →then give your project a name and location and click the “OK” button.</p><p id="1028" class="jl jm cm ar jn b jo jz jq ka js kb ju kc jw kd jy" style="box-sizing: inherit; margin-top: 2em; margin-bottom: -0.46em; font-weight: 400; font-style: normal; color: rgba(0, 0, 0, 0.84); line-height: 1.58; letter-spacing: -0.004em; font-family: medium-content-serif-font, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 21px; text-align: start; text-transform: none; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;" data-selectable-paragraph=""><span class="jn ke" style="box-sizing: inherit; font-weight: bold;">Step 2</span></p><p id="d906" class="jl jm cm ar jn b jo jz jq ka js kb ju kc jw kd jy" style="box-sizing: inherit; margin-top: 2em; margin-bottom: -0.46em; font-weight: 400; font-style: normal; color: rgba(0, 0, 0, 0.84); line-height: 1.58; letter-spacing: -0.004em; font-family: medium-content-serif-font, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 21px; text-align: start; text-transform: none; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;" data-selectable-paragraph="">Right, Click on Solution(App_Name) →Manage NuGet Packages for Solution →Install <span class="jn ke" style="box-sizing: inherit; font-weight: bold;">Xam.Plugin.DeviceInfo </span>package.</p><p id="e393" class="jl jm cm ar jn b jo jz jq ka js kb ju kc jw kd jy" style="box-sizing: inherit; margin-top: 2em; margin-bottom: -0.46em; font-weight: 400; font-style: normal; color: rgba(0, 0, 0, 0.84); line-height: 1.58; letter-spacing: -0.004em; font-family: medium-content-serif-font, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 21px; text-align: start; text-transform: none; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;" data-selectable-paragraph=""><span class="jn ke" style="box-sizing: inherit; font-weight: bold;">Step 3</span></p><p id="7b8b" class="jl jm cm ar jn b jo jz jq ka js kb ju kc jw kd jy" style="box-sizing: inherit; margin-top: 2em; margin-bottom: -0.46em; font-weight: 400; font-style: normal; color: rgba(0, 0, 0, 0.84); line-height: 1.58; letter-spacing: -0.004em; font-family: medium-content-serif-font, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 21px; text-align: start; text-transform: none; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;" data-selectable-paragraph="">We are creating Labels, texts, and font attributes inside the layout. like “ID”, “IDIOM”, “MODEL”, “PLATFORM”, “VERSION”.</p></div>
