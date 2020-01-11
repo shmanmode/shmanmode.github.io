@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Shell Script</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>The web is our playground</description>
+	<lastBuildDate>Sat, 11 Jan 2020 14:51:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2019/12/cropped-red-icon-32x32.png</url>
+	<title>Shell Script</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Program for Simple Interest</title>
+		<link>./../../../2020/01/11/program-for-simple-interest/index.html</link>
+				<pubDate>Sat, 11 Jan 2020 14:30:18 +0000</pubDate>
+		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+				<category><![CDATA[Shell Script]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=153</guid>
+				<description><![CDATA[To create a new file in terminal write vi filename.sh Press i for edit mode First line in your shell scripts acts as a guideline &#8230; ]]></description>
+								<content:encoded><![CDATA[<p></p>
+
+
+</p>
+<ol>
+<li>To create a new file in terminal write <strong>vi filename.sh</strong></li>
+<li>Press <strong>i</strong> for edit mode</li>
+<li>First line in your shell scripts acts as a guideline on which shell to be used for running your script. Should be  <strong>#</strong><strong style="font-size: 1.125rem;">!/bin/bash</strong></li>
+<li>
+<p>write your code here<img src="./../../../wp-content/uploads/2020/01/simpleintrest.png" alt="" width="732" height="438" /></p>
+<pre>#!/bin/bash<br />echo enter principle amount<br />read a #principle amount taken as a<br />echo enter rate of interest<br />read i #rate of interest taken as i<br />echo enter time period in error<br />read t #time period is taken as tinterest=$(echo "($a*$i*$t)/100" | bc -l ) #simple interest formula <br />echo simple interest : $interest</pre>
+</li>
+<li>
+<p>to save press <strong>esc + : + w + q</strong></p>
+</li>
+<li>
+<p>To run <strong>bash filename.sh</strong></p>
+</li>
+</ol>
+<p>
+
+
+
+</p>
+<p>
+
+
+<p></p>
+<p><strong>Output:</strong></p>
+<p>										<img width="732" height="438" src="./../../../wp-content/uploads/2020/01/simple-intrest_output.png" alt="" srcset="./../../../wp-content/uploads/2020/01/simple-intrest_output.png 732w, ./../../../wp-content/uploads/2020/01/simple-intrest_output-300x180.png 300w, ./../../../wp-content/uploads/2020/01/simple-intrest_output-445x265.png 445w" sizes="(max-width: 732px) 100vw, 732px"></p>]]></content:encoded>
+										</item>
+	</channel>
+</rss>
