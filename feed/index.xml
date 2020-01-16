@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>The web is our playground</description>
-	<lastBuildDate>Sat, 11 Jan 2020 14:51:02 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 11 Jan 2020 15:05:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,8 +28,8 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Program for Simple Interest</title>
-		<link>./../2020/01/11/program-for-simple-interest/index.html</link>
+		<title>Shell Script to Calculate Simple Interest</title>
+		<link>./../2020/01/11/shell-script-to-calculate-simple-interest/index.html</link>
 				<pubDate>Sat, 11 Jan 2020 14:30:18 +0000</pubDate>
 		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
 				<category><![CDATA[Shell Script]]></category>
