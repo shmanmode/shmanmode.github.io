@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Create Facebook login for your website &#8211; WebTutplus</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Feed" href="./../../../../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Comments Feed" href="./../../../../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="WebTutplus &raquo; Create Facebook login for your website Comments Feed" href="./feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":".\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='./../../../../wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='./../../../../wp-includes/css/dist/block-library/theme.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ce_responsive-css'  href='./../../../../wp-content/plugins/simple-embed-code/css/video-container.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='./../../../../wp-content/themes/bam/assets/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bam-style-css'  href='./../../../../wp-content/themes/bam/style.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bam-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i|Roboto+Condensed%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i%26subset%3Dlatin' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='./../../../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='./../../../../wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.9.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='./../../../../wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1593716419' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-193-css'  href='./../../../../wp-content/uploads/elementor/css/post-193.css?ver=1593716695' type='text/css' media='all' />
+<script type='text/javascript' src='./../../../../wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='./../../../../wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='./../../../../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./../../../../xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./../../../../wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Paytm Payment Gateway Integration' href='./../../../01/22/paytm-payment-gateway-integration/index.html' />
+<link rel='next' title='Paypal payment gateway integration using javascript' href='./../paypal-payment-gateway-integration-using-javascript/index.html' />
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="canonical" href="./index.html" />
+<link rel='shortlink' href='./../../../../index.html?p=193' />
+<link rel="alternate" type="application/json+oembed" href="./../../../../wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F2020%2F07%2F02%2Fcreate-facebook-login-for-your-website%2F" />
+<link rel="alternate" type="text/xml+oembed" href="./../../../../wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F2020%2F07%2F02%2Fcreate-facebook-login-for-your-website%2F&#038;format=xml" />
+<link rel="pingback" href="./../../../../xmlrpc.php">		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+				display: none;
+			}
+				</style>
+		<link rel="icon" href="./../../../../wp-content/uploads/2019/12/cropped-red-icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="./../../../../wp-content/uploads/2019/12/cropped-red-icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="./../../../../wp-content/uploads/2019/12/cropped-red-icon-180x180.png" />
+<meta name="msapplication-TileImage" content="./wp-content/uploads/2019/12/cropped-red-icon-270x270.png" />
+
+		<style type="text/css" id="theme-custom-css">
+			/* Header CSS */
+                    .container {
+                        width: 2000px;
+                    }
+                /* Color CSS */
+                    .page-content a:hover,
+                    .entry-content a:hover {
+                        color: #00aeef;
+                    }
+                
+                    body.boxed-layout.custom-background,
+                    body.boxed-layout {
+                        background-color: #dddddd;
+                    }
+                
+                    body.boxed-layout.custom-background.separate-containers,
+                    body.boxed-layout.separate-containers {
+                        background-color: #dddddd;
+                    }
+                
+                    body.wide-layout.custom-background.separate-containers,
+                    body.wide-layout.separate-containers {
+                        background-color: #eeeeee;
+                    }
+                /* Header CSS */
+                        .site-header.default-style .main-navigation ul li a:hover { color: #a8d140; }
+                        .site-header.default-style .main-navigation .current_page_item > a, .site-header.default-style .main-navigation .current-menu-item > a, .site-header.default-style .main-navigation .current_page_ancestor > a, .site-header.default-style .main-navigation .current-menu-ancestor > a { color: #a8d140; }
+                    /* Footer CSS */
+                    .site-info {
+                        color: #ffffff;
+                    }		</style>
+
+	</head>
+
+<body class="post-template-default single single-post postid-193 single-format-standard wp-custom-logo wide-layout left-sidebar separate-containers elementor-default elementor-kit-212 elementor-page elementor-page-193">
+
+
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	
+<div id="topbar" class="bam-topbar clearfix">
+
+    <div class="container-fluid">
+
+        
+            <div id="top-navigation" class="top-navigation">
+        <div class="menu-footer_menu-container"><ul id="top-menu" class="menu"><li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a href="./../../../../about/index.html">About</a></li>
+</ul></div>					
+    </div>		
+
+        
+<div class="bam-topbar-social colored">
+
+    
+        
+                    <span class="bam-social-icon">
+                                    <a href="http://www.facebook.com/" class="bam-social-link facebook" target="_blank" title="Facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                            </span>
+                
+    
+        
+                    <span class="bam-social-icon">
+                                    <a href="http://www.youtube.com/" class="bam-social-link youtube" target="_blank" title="Youtube">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+                            </span>
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                    <span class="bam-social-icon">
+                                    <a href="http://www.github.com/" class="bam-social-link github" target="_blank" title="Github">
+                        <i class="fa fa-github"></i>
+                    </a>
+                            </span>
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                
+    
+        
+                    <span class="bam-social-icon">
+                                    <a href="mailto:sh.manmode@gmail.com" class="bam-social-link email" target="_self" title="Email">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                            </span>
+                
+    
+</div><!-- .bam-social-media -->
+    </div>
+
+</div>
+	
+
+
+<header id="masthead" class="site-header default-style">
+
+    
+    
+
+<div id="site-header-inner" class="clearfix container-fluid left-logo">
+
+    <div class="site-branding">
+    <div class="site-branding-inner">
+
+                    <div class="site-logo-image"><a href="./../../../../index.html" class="custom-logo-link" rel="home"><img width="225" height="72" src="./../../../../wp-content/uploads/2019/12/cropped-icon-2.png" class="custom-logo" alt="WebTutplus" /></a></div>
+        
+        <div class="site-branding-text">
+                            <p class="site-title"><a href="./../../../../index.html" rel="home">WebTutplus</a></p>
+                                <p class="site-description">The web is our playground</p>
+                    </div><!-- .site-branding-text -->
+
+    </div><!-- .site-branding-inner -->
+</div><!-- .site-branding -->
+    
+<div class="header-sidebar">
+    <div class="header-sidebar-inner">
+            </div><!-- .header-sidebar-inner -->
+</div><!-- .header-sidebar -->
+    
+</div><!-- #site-header-inner -->
+
+
+
+<nav id="site-navigation" class="main-navigation">
+
+    <div id="site-navigation-inner" class="container align-left show-search">
+        
+        <div class="menu-header-_menu-container"><ul id="primary-menu" class="menu"><li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-101"><a href="./../../../../index.html">Home</a></li>
+<li id="menu-item-187" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-187"><a href="./../../../../category/web-development/index.html">Web development</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-185"><a href="./../../../../category/python/index.html">Python</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-186"><a href="./../../../../category/shell-script/index.html">Shell Script</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102"><a href="./../../../../category/xamarin/index.html">Xamarin</a></li>
+</ul></div><div class="bam-search-button-icon">
+    <i class="fa fa-search" aria-hidden="true"></i>
+</div>
+<div class="bam-search-box-container">
+    <div class="bam-search-box">
+        <form role="search" method="get" class="search-form" action="./../../../../index.html">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>    </div><!-- th-search-box -->
+</div><!-- .th-search-box-container -->
+
+        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i>Menu</button>
+        
+    </div><!-- .container -->
+    
+</nav><!-- #site-navigation -->
+<div class="mobile-dropdown">
+    <nav class="mobile-navigation">
+        <div class="menu-header-_menu-container"><ul id="primary-menu" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-101"><a href="./../../../../index.html">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-187"><a href="./../../../../category/web-development/index.html">Web development</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-185"><a href="./../../../../category/python/index.html">Python</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-186"><a href="./../../../../category/shell-script/index.html">Shell Script</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102"><a href="./../../../../category/xamarin/index.html">Xamarin</a></li>
+</ul></div>    </nav>
+</div>
+
+    
+         
+</header><!-- #masthead -->
+
+
+	
+	<div id="content" class="site-content">
+		<div class="container">
+
+	
+	<div id="primary" class="content-area">
+
+		
+		<main id="main" class="site-main">
+
+			
+			
+<article id="post-193" class="bam-single-post post-193 post type-post status-publish format-standard hentry category-javascript tag-os">
+	
+	
+	<div class="category-list">
+		<span class="cat-links"><a href="./../../../../category/web-development/javascript/index.html" rel="category tag">javascript</a></span>	</div><!-- .category-list -->
+
+	<header class="entry-header">
+		<h1 class="entry-title">Create Facebook login for your website</h1>			<div class="entry-meta">
+							</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+				<div data-elementor-type="wp-post" data-elementor-id="193" class="elementor elementor-193" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-3012f6f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3012f6f2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-14d2a21f elementor-column elementor-col-100 elementor-top-column" data-id="14d2a21f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-747d69e2 elementor-widget elementor-widget-text-editor" data-id="747d69e2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:paragraph --></p>
+<p>So. Made a new website and want an easy login from Facebook. Facebook has a Javascript SDK and we are going to utilize that for creating Fb login for our website.</p>
+<div class="wp-block-buttons">
+<p><!-- /wp:button --></p>
+</div>
+<p><!-- /wp:buttons --></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-482e303 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="482e303" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2a10b12 elementor-column elementor-col-25 elementor-top-column" data-id="2a10b12" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d71a9f3 elementor-widget elementor-widget-button" data-id="d71a9f3" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://developers.facebook.com/docs/facebook-login/android" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Try it</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-41c35c4 elementor-column elementor-col-25 elementor-top-column" data-id="41c35c4" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2367a38 elementor-align-justify elementor-widget elementor-widget-button" data-id="2367a38" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://developers.facebook.com/docs/facebook-login/android" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Download code ></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-78c00c2 elementor-column elementor-col-25 elementor-top-column" data-id="78c00c2" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-34418a1 elementor-column elementor-col-25 elementor-top-column" data-id="34418a1" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+			</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<div class="tags-links"><span class="bam-tags-title">Tagged</span><a href="./../../../../tag/os/index.html" rel="tag">os</a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-193 -->
+	<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="./../../../01/22/paytm-payment-gateway-integration/index.html" rel="prev"><span class="meta-nav" aria-hidden="true">Previous Post</span> <span class="screen-reader-text">Previous post:</span> <br/><span class="post-title">Paytm Payment Gateway Integration</span></a></div><div class="nav-next"><a href="./../paypal-payment-gateway-integration-using-javascript/index.html" rel="next"><span class="meta-nav" aria-hidden="true">Next Post</span> <span class="screen-reader-text">Next post:</span> <br/><span class="post-title">Paypal payment gateway integration using javascript</span></a></div></div>
+	</nav>
+<div id="comments" class="comments-area">
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="./index.html#respond" style="display:none;">Cancel reply</a></small></h3><form action="./../../../../wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='193' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments -->
+
+			
+		</main><!-- #main -->
+
+		
+	</div><!-- #primary -->
+
+	
+
+
+<aside id="secondary" class="widget-area">
+
+	
+	<section id="categories-2" class="widget widget_categories"><h4 class="widget-title">Categories</h4>		<ul>
+				<li class="cat-item cat-item-8"><a href="./../../../../category/web-development/javascript/index.html">javascript</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="./../../../../category/web-development/payment-gateway/index.html">payment gateway</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="./../../../../category/shell-script/index.html">Shell Script</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="./../../../../category/xamarin/index.html">Xamarin</a>
+</li>
+		</ul>
+			</section><section id="archives-2" class="widget widget_archive"><h4 class="widget-title">Archives</h4>		<ul>
+				<li><a href='./../../index.html'>July 2020</a></li>
+	<li><a href='./../../../01/index.html'>January 2020</a></li>
+	<li><a href='./../../../../2019/12/index.html'>December 2019</a></li>
+		</ul>
+			</section><section id="meta-2" class="widget widget_meta"><h4 class="widget-title">Meta</h4>			<ul>
+						<li><a href="./../../../../wp-login.php">Log in</a></li>
+			<li><a href="./../../../../feed/index.html">Entries feed</a></li>
+			<li><a href="./../../../../comments/feed/index.html">Comments feed</a></li>
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>			</ul>
+			</section>
+	
+</aside><!-- #secondary -->
+
+	</div><!-- .container -->
+	</div><!-- #content -->
+
+	
+	
+	<footer id="colophon" class="site-footer">
+
+		
+		
+		<div class="footer-widget-area clearfix th-columns-3">
+			<div class="container">
+				<div class="footer-widget-area-inner">
+					<div class="col column-1">
+						<section id="sidebar_posts-4" class="widget widget_sidebar_posts">		<div class="bam-category-posts">
+		<h4 class="widget-title">Latest Posts</h4>
+		
+			
+								<div class="bms-post clearfix">
+												<div class="bms-details">
+							<h3 class="bms-title"><a href="./../paypal-payment-gateway-integration-using-javascript/index.html" rel="bookmark">Paypal payment gateway integration using javascript</a></h3>							<div class="entry-meta"><span class="posted-on"><i class="fa fa-clock-o"></i><a href="./../paypal-payment-gateway-integration-using-javascript/index.html" rel="bookmark"><time class="entry-date published" datetime="2020-07-02T19:00:11+00:00">July 2, 2020</time><time class="updated" datetime="2020-07-02T19:01:10+00:00">July 2, 2020</time></a></span></div>
+						</div>
+					</div><!-- .bms-post -->
+								<div class="bms-post clearfix">
+												<div class="bms-details">
+							<h3 class="bms-title"><a href="./index.html" rel="bookmark">Create Facebook login for your website</a></h3>							<div class="entry-meta"><span class="posted-on"><i class="fa fa-clock-o"></i><a href="./index.html" rel="bookmark"><time class="entry-date published" datetime="2020-07-02T17:53:53+00:00">July 2, 2020</time><time class="updated" datetime="2020-07-02T18:43:38+00:00">July 2, 2020</time></a></span></div>
+						</div>
+					</div><!-- .bms-post -->
+								<div class="bms-post clearfix">
+													<div class="bms-thumb">
+								<a href="./../../../01/22/paytm-payment-gateway-integration/index.html" rel="bookmark" title="Paytm Payment Gateway Integration">	
+									<img width="120" height="85" src="./../../../../wp-content/uploads/2020/01/paytm-120x85.jpeg" class="attachment-bam-small size-bam-small wp-post-image" alt="" />								</a>
+							</div>
+												<div class="bms-details">
+							<h3 class="bms-title"><a href="./../../../01/22/paytm-payment-gateway-integration/index.html" rel="bookmark">Paytm Payment Gateway Integration</a></h3>							<div class="entry-meta"><span class="posted-on"><i class="fa fa-clock-o"></i><a href="./../../../01/22/paytm-payment-gateway-integration/index.html" rel="bookmark"><time class="entry-date published" datetime="2020-01-22T17:37:01+00:00">January 22, 2020</time><time class="updated" datetime="2020-07-02T18:56:30+00:00">July 2, 2020</time></a></span></div>
+						</div>
+					</div><!-- .bms-post -->
+								<div class="bms-post clearfix">
+													<div class="bms-thumb">
+								<a href="./../../../01/11/shell-script-to-calculate-simple-interest/index.html" rel="bookmark" title="Shell Script to Calculate Simple Interest">	
+									<img width="120" height="85" src="./../../../../wp-content/uploads/2020/01/simpleintrest-120x85.png" class="attachment-bam-small size-bam-small wp-post-image" alt="" />								</a>
+							</div>
+												<div class="bms-details">
+							<h3 class="bms-title"><a href="./../../../01/11/shell-script-to-calculate-simple-interest/index.html" rel="bookmark">Shell Script to Calculate Simple Interest</a></h3>							<div class="entry-meta"><span class="posted-on"><i class="fa fa-clock-o"></i><a href="./../../../01/11/shell-script-to-calculate-simple-interest/index.html" rel="bookmark"><time class="entry-date published" datetime="2020-01-11T14:30:18+00:00">January 11, 2020</time><time class="updated" datetime="2020-05-16T21:03:35+00:00">May 16, 2020</time></a></span></div>
+						</div>
+					</div><!-- .bms-post -->
+								        
+        </div><!-- .bam-category-posts -->
+
+
+	</section>					</div>
+
+											<div class="col column-2">
+							<section id="media_image-5" class="widget widget_media_image"><h4 class="widget-title">IMAGES</h4><img width="295" height="171" src="./../../../../wp-content/uploads/2020/01/paytm.jpeg" class="image wp-image-173  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" /></section>						</div>
+					
+											<div class="col column-3">
+							<section id="text-11" class="widget widget_text"><h4 class="widget-title">CONTACT INFO</h4>			<div class="textwidget"><p>Drop a mail</p>
+<p><strong>Address:</strong></p>
+<p>Bangalore</p>
+<p><strong>Phone:</strong></p>
+<p>8793463138</p>
+</div>
+		</section>						</div>
+					
+									</div><!-- .footer-widget-area-inner -->
+			</div><!-- .container -->
+		</div><!-- .footer-widget-area -->
+
+		<div class="site-info clearfix">
+			<div class="container">
+				<div class="copyright-container">
+					Copyright © 2019 WebTutplus - some rights reserved
+					Powered by <a href="https://wordpress.org/" target="_blank">WordPress</a> and <a href="https://themezhut.com/themes/bam/" target="_blank">Bam</a>.				</div><!-- .copyright-container -->
+			</div><!-- .container -->
+		</div><!-- .site-info -->
+
+		
+	</footer><!-- #colophon -->
+
+	
+</div><!-- #page -->
+
+
+<script type='text/javascript' src='./../../../../wp-content/themes/bam/assets/js/scripts.js?ver=5.4.2'></script>
+<script type='text/javascript' src='./../../../../wp-content/themes/bam/assets/js/main-navigation.js?ver=5.4.2'></script>
+<script type='text/javascript' src='./../../../../wp-content/themes/bam/assets/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='./../../../../wp-content/themes/bam/assets/js/jquery.fitvids.js?ver=5.4.2'></script>
+<script type='text/javascript' src='./../../../../wp-includes/js/comment-reply.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='./../../../../wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='./../../../../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=2.9.13'></script>
+<script type='text/javascript' src='./../../../../wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='./../../../../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='./../../../../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='./../../../../wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6'></script>
+<script type='text/javascript' src='./../../../../wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=2.9.13'></script>
+<script type='text/javascript'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","downloadImage":"Download image"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":690,"lg":1000,"xl":1440,"xxl":1600},"version":"2.9.13","urls":{"assets":".\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":193,"title":"Create%20Facebook%20login%20for%20your%20website%20%E2%80%93%20WebTutplus","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='./../../../../wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.9.13'></script>
+</body>
+</html>

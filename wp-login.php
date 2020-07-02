@@ -7,19 +7,19 @@
 	<!--<![endif]-->
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Log In &lsaquo;  &#8212; WordPress</title>
+	<title>Log In &lsaquo; WebTutplus &#8212; WordPress</title>
 	<link rel='dns-prefetch' href='//s.w.org' />
-<link rel='stylesheet' id='dashicons-css'  href='./wp-includes/css/dashicons.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='buttons-css'  href='./wp-includes/css/buttons.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='forms-css'  href='./wp-admin/css/forms.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='l10n-css'  href='./wp-admin/css/l10n.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='login-css'  href='./wp-admin/css/login.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='./wp-includes/css/dashicons.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='buttons-css'  href='./wp-includes/css/buttons.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='forms-css'  href='./wp-admin/css/forms.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='l10n-css'  href='./wp-admin/css/l10n.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='login-css'  href='./wp-admin/css/login.min.css?ver=5.4.2' type='text/css' media='all' />
 	<meta name='robots' content='noindex,noarchive' />
 	<meta name='referrer' content='strict-origin-when-cross-origin' />
 		<meta name="viewport" content="width=device-width" />
 	<link rel="icon" href="./wp-content/uploads/2019/12/cropped-red-icon-32x32.png" sizes="32x32" />
 <link rel="icon" href="./wp-content/uploads/2019/12/cropped-red-icon-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="./wp-content/uploads/2019/12/cropped-red-icon-180x180.png" />
+<link rel="apple-touch-icon" href="./wp-content/uploads/2019/12/cropped-red-icon-180x180.png" />
 <meta name="msapplication-TileImage" content="./wp-content/uploads/2019/12/cropped-red-icon-270x270.png" />
 	</head>
 	<body class="login no-js login-action-login wp-core-ui  locale-en-us">
@@ -60,7 +60,7 @@
 wp_attempt_focus();
 if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 				<p id="backtoblog"><a href="./index.html">
-		&larr; Back to 		</a></p>
+		&larr; Back to WebTutplus		</a></p>
 			</div>
 	<script type='text/javascript' src='./wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 <script type='text/javascript' src='./wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
@@ -75,20 +75,20 @@ var _zxcvbnSettings = {"src":".\/wp-includes\/js\/zxcvbn.min.js"};
 var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='./wp-admin/js/password-strength-meter.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='./wp-admin/js/password-strength-meter.min.js?ver=5.4.2'></script>
 <script type='text/javascript' src='./wp-includes/js/underscore.min.js?ver=1.8.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='./wp-includes/js/wp-util.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='./wp-includes/js/wp-util.min.js?ver=5.4.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var userProfileL10n = {"warn":"Your new password has not been saved.","warnWeak":"Confirm use of weak password","show":"Show","hide":"Hide","cancel":"Cancel","ariaShow":"Show password","ariaHide":"Hide password"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='./wp-admin/js/user-profile.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='./wp-admin/js/user-profile.min.js?ver=5.4.2'></script>
 	<div class="clear"></div>
 	</body>
 	</html>

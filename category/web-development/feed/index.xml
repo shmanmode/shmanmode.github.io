@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Web development &#8211; WebTutplus</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>The web is our playground</description>
+	<lastBuildDate>Thu, 02 Jul 2020 19:01:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2019/12/cropped-red-icon-32x32.png</url>
+	<title>Web development &#8211; WebTutplus</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Paypal payment gateway integration using javascript</title>
+		<link>./../../../2020/07/02/paypal-payment-gateway-integration-using-javascript/index.html</link>
+					<comments>./../../../2020/07/02/paypal-payment-gateway-integration-using-javascript/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Thu, 02 Jul 2020 19:00:11 +0000</pubDate>
+				<category><![CDATA[payment gateway]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=210</guid>
+
+					<description><![CDATA[Hi guys, we are all familiar with PayPal. In this post, we will see how easily we can&#160;integrate&#160;PayPal payment gateway into our website. We will &#8230; ]]></description>
+										<content:encoded><![CDATA[
+<p>Hi guys, we are all familiar with PayPal. In this post, we will see how easily we can&nbsp;integrate&nbsp;PayPal payment gateway into our website. We will use javascript to do so.</p>
+
+
+
+<p>Step 1:- Go to&nbsp;<a rel="noreferrer noopener" href="https://web.archive.org/web/20160425130812/https://www.paypal.com/" target="_blank">paypal site</a>&nbsp;. Create a account. It is free. You dont need to verify anything. You can use our email contact.webtutplus.com also for this tutorial.</p>
+
+
+
+<p>Step 2:- Download this js file. Name it paypal.min.js</p>
+
+
+
+<pre class="wp-block-code"><code>
+
+
+ &lt;link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+    rel="stylesheet">
+&lt;/head>
+&lt;body>
+&lt;div class="container">
+&lt;h1 class="bg-info" style="text-align:center"> Paypal Payment Gateway Intergation &lt;/h1>
+&lt;/div>
+&lt;div class="container" style="margin-top:50px">
+
+        &lt;div class="col-sm-4">
+            &lt;img src="P1.jpg" width="200">&lt;br />
+           &lt;p> $100 &lt;/p>
+         
+</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/07/02/paypal-payment-gateway-integration-using-javascript/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Create Facebook login for your website</title>
+		<link>./../../../2020/07/02/create-facebook-login-for-your-website/index.html</link>
+					<comments>./../../../2020/07/02/create-facebook-login-for-your-website/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Thu, 02 Jul 2020 17:53:53 +0000</pubDate>
+				<category><![CDATA[javascript]]></category>
+		<category><![CDATA[os]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=193</guid>
+
+					<description><![CDATA[So. Made a new website and want an easy login from Facebook. Facebook has a Javascript SDK and we are going to utilize that for &#8230; ]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="193" class="elementor elementor-193" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-3012f6f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3012f6f2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-14d2a21f elementor-column elementor-col-100 elementor-top-column" data-id="14d2a21f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-747d69e2 elementor-widget elementor-widget-text-editor" data-id="747d69e2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:paragraph --></p>
+<p>So. Made a new website and want an easy login from Facebook. Facebook has a Javascript SDK and we are going to utilize that for creating Fb login for our website.</p>
+<div class="wp-block-buttons">
+<p><!-- /wp:button --></p>
+</div>
+<p><!-- /wp:buttons --></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-482e303 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="482e303" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2a10b12 elementor-column elementor-col-25 elementor-top-column" data-id="2a10b12" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d71a9f3 elementor-widget elementor-widget-button" data-id="d71a9f3" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://developers.facebook.com/docs/facebook-login/android" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Try it</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-41c35c4 elementor-column elementor-col-25 elementor-top-column" data-id="41c35c4" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2367a38 elementor-align-justify elementor-widget elementor-widget-button" data-id="2367a38" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://developers.facebook.com/docs/facebook-login/android" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Download code ></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-78c00c2 elementor-column elementor-col-25 elementor-top-column" data-id="78c00c2" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-34418a1 elementor-column elementor-col-25 elementor-top-column" data-id="34418a1" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/07/02/create-facebook-login-for-your-website/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Paytm Payment Gateway Integration</title>
+		<link>./../../../2020/01/22/paytm-payment-gateway-integration/index.html</link>
+					<comments>./../../../2020/01/22/paytm-payment-gateway-integration/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Wed, 22 Jan 2020 17:37:01 +0000</pubDate>
+				<category><![CDATA[payment gateway]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=169</guid>
+
+					<description><![CDATA[Collect online payments with Paytm Payment Gateway]]></description>
+										<content:encoded><![CDATA[
+<p>Collect online payments with Paytm Payment Gateway</p>
+
+
+
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link">welcome</a></div>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link">ok done</a></div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/01/22/paytm-payment-gateway-integration/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

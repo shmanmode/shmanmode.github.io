@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>Shell Script</title>
+	<title>Shell Script &#8211; WebTutplus</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>The web is our playground</description>
-	<lastBuildDate>Sat, 11 Jan 2020 15:05:43 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 16 May 2020 21:03:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.2</generator>
 
 <image>
 	<url>./../../../wp-content/uploads/2019/12/cropped-red-icon-32x32.png</url>
-	<title>Shell Script</title>
+	<title>Shell Script &#8211; WebTutplus</title>
 	<link>./../../../index.html</link>
 	<width>32</width>
 	<height>32</height>
@@ -30,22 +30,31 @@
 	<item>
 		<title>Shell Script to Calculate Simple Interest</title>
 		<link>./../../../2020/01/11/shell-script-to-calculate-simple-interest/index.html</link>
-				<pubDate>Sat, 11 Jan 2020 14:30:18 +0000</pubDate>
+		
 		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Sat, 11 Jan 2020 14:30:18 +0000</pubDate>
 				<category><![CDATA[Shell Script]]></category>
-
 		<guid isPermaLink="false">./../../../index.html?p=153</guid>
-				<description><![CDATA[To create a new file in terminal write vi filename.sh Press i for edit mode First line in your shell scripts acts as a guideline &#8230; ]]></description>
-								<content:encoded><![CDATA[<p></p>
 
-
-</p>
+					<description><![CDATA[To create a new file in terminal write vi filename.sh Press i for edit mode First line in your shell scripts acts as a guideline &#8230; ]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="153" class="elementor elementor-153" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-483f44bb elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="483f44bb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5c72f440 elementor-column elementor-col-100 elementor-top-column" data-id="5c72f440" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-33612da3 elementor-widget elementor-widget-text-editor" data-id="33612da3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:list {"ordered":true} --></p>
 <ol>
 <li>To create a new file in terminal write <strong>vi filename.sh</strong></li>
 <li>Press <strong>i</strong> for edit mode</li>
-<li>First line in your shell scripts acts as a guideline on which shell to be used for running your script. Should be  <strong>#</strong><strong style="font-size: 1.125rem;">!/bin/bash</strong></li>
+<li><span style="font-size: 1.125rem;">First line in your shell scripts acts as a guideline on which shell to be used for running your script. Should be  <strong>#</strong></span><strong style="font-size: 1.125rem;">!/bin/bash</strong></li>
 <li>
-<p>write your code here<img src="./../../../wp-content/uploads/2020/01/simpleintrest.png" alt="" width="732" height="438" /></p>
+<p>write your code here<img class="alignnone wp-image-155 size-full" src="./../../../wp-content/uploads/2020/01/simpleintrest.png" alt="" width="732" height="438" srcset="./../../../wp-content/uploads/2020/01/simpleintrest.png 732w, ./../../../wp-content/uploads/2020/01/simpleintrest-300x180.png 300w, ./../../../wp-content/uploads/2020/01/simpleintrest-445x265.png 445w" sizes="(max-width: 732px) 100vw, 732px" /></p>
 <pre>#!/bin/bash<br />echo enter principle amount<br />read a #principle amount taken as a<br />echo enter rate of interest<br />read i #rate of interest taken as i<br />echo enter time period in error<br />read t #time period is taken as tinterest=$(echo "($a*$i*$t)/100" | bc -l ) #simple interest formula <br />echo simple interest : $interest</pre>
 </li>
 <li>
@@ -55,17 +64,54 @@
 <p>To run <strong>bash filename.sh</strong></p>
 </li>
 </ol>
-<p>
-
-
-
-</p>
-<p>
-
-
-<p></p>
-<p><strong>Output:</strong></p>
-<p>										<img width="732" height="438" src="./../../../wp-content/uploads/2020/01/simple-intrest_output.png" alt="" srcset="./../../../wp-content/uploads/2020/01/simple-intrest_output.png 732w, ./../../../wp-content/uploads/2020/01/simple-intrest_output-300x180.png 300w, ./../../../wp-content/uploads/2020/01/simple-intrest_output-445x265.png 445w" sizes="(max-width: 732px) 100vw, 732px"></p>]]></content:encoded>
-										</item>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-745d9f6 elementor-widget elementor-widget-divider" data-id="745d9f6" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-38d5802 elementor-widget elementor-widget-text-editor" data-id="38d5802" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong>Output:</strong></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4d1f185 elementor-widget elementor-widget-image" data-id="4d1f185" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="732" height="438" src="./../../../wp-content/uploads/2020/01/simple-intrest_output.png" class="attachment-large size-large" alt="" srcset="./../../../wp-content/uploads/2020/01/simple-intrest_output.png 732w, ./../../../wp-content/uploads/2020/01/simple-intrest_output-300x180.png 300w, ./../../../wp-content/uploads/2020/01/simple-intrest_output-445x265.png 445w" sizes="(max-width: 732px) 100vw, 732px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-371332b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="371332b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-da007e1 elementor-column elementor-col-100 elementor-top-column" data-id="da007e1" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
 	</channel>
 </rss>

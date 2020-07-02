@@ -12,13 +12,13 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>The web is our playground</description>
-	<lastBuildDate>Sun, 05 Jan 2020 19:09:22 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 17 Mar 2020 16:10:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 
 <image>
 	<url>./../../../wp-content/uploads/2019/12/cropped-red-icon-32x32.png</url>
@@ -28,16 +28,81 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Paytm Payment Gateway Integration</title>
+		<link>./../../../2020/01/22/paytm-payment-gateway-integration/index.html</link>
+					<comments>./../../../2020/01/22/paytm-payment-gateway-integration/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Wed, 22 Jan 2020 17:37:01 +0000</pubDate>
+				<category><![CDATA[Xamarin]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=169</guid>
+
+					<description><![CDATA[Collect online payments with Paytm Payment Gateway]]></description>
+										<content:encoded><![CDATA[
+<p>Collect online payments with Paytm Payment Gateway</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/01/22/paytm-payment-gateway-integration/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Shell Script to Calculate Simple Interest</title>
+		<link>./../../../2020/01/11/shell-script-to-calculate-simple-interest/index.html</link>
+		
+		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Sat, 11 Jan 2020 14:30:18 +0000</pubDate>
+				<category><![CDATA[Shell Script]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=153</guid>
+
+					<description><![CDATA[To create a new file in terminal write vi filename.sh Press i for edit mode First line in your shell scripts acts as a guideline on which shell to be used for running your script. Should be  #!/bin/bash write your code here #!/bin/bashecho enter principle amountread a #principle amount taken as aecho enter rate of interestread i #rate of interest taken as iecho enter time period in errorread t #time period is taken as tinterest=$(echo "($a*$i*$t)/100" &#124; bc -l ) #simple interest formula echo simple interest : $interest to save press esc + : + w + q To run…]]></description>
+										<content:encoded><![CDATA[<p></p>
+
+
+</p>
+<ol>
+<li>To create a new file in terminal write <strong>vi filename.sh</strong></li>
+<li>Press <strong>i</strong> for edit mode</li>
+<li>First line in your shell scripts acts as a guideline on which shell to be used for running your script. Should be  <strong>#</strong><strong style="font-size: 1.125rem;">!/bin/bash</strong></li>
+<li>
+<p>write your code here<img src="./../../../wp-content/uploads/2020/01/simpleintrest.png" alt="" width="732" height="438" /></p>
+<pre>#!/bin/bash<br />echo enter principle amount<br />read a #principle amount taken as a<br />echo enter rate of interest<br />read i #rate of interest taken as i<br />echo enter time period in error<br />read t #time period is taken as tinterest=$(echo "($a*$i*$t)/100" | bc -l ) #simple interest formula <br />echo simple interest : $interest</pre>
+</li>
+<li>
+<p>to save press <strong>esc + : + w + q</strong></p>
+</li>
+<li>
+<p>To run <strong>bash filename.sh</strong></p>
+</li>
+</ol>
+<p>
+
+
+
+</p>
+<p>
+
+
+<p></p>
+<p><strong>Output:</strong></p>
+<p>										<img width="732" height="438" src="./../../../wp-content/uploads/2020/01/simple-intrest_output.png" alt="" srcset="./../../../wp-content/uploads/2020/01/simple-intrest_output.png 732w, ./../../../wp-content/uploads/2020/01/simple-intrest_output-300x180.png 300w, ./../../../wp-content/uploads/2020/01/simple-intrest_output-445x265.png 445w" sizes="(max-width: 732px) 100vw, 732px"></p>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Xamarin.Essentials: Device Info In Android Using Xamarin.Forms</title>
 		<link>./../../../2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html</link>
-				<comments>./../../../2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html#respond</comments>
-				<pubDate>Sat, 28 Dec 2019 16:40:02 +0000</pubDate>
+					<comments>./../../../2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html#respond</comments>
+		
 		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Sat, 28 Dec 2019 16:40:02 +0000</pubDate>
 				<category><![CDATA[Xamarin]]></category>
-
 		<guid isPermaLink="false">./../../../index.html?p=51</guid>
-				<description><![CDATA[Introduction In this article, we will see how to retrieve device info in Android using Xamarin.Forms. Step 1 Open Visual Studio&#160;→Click File → select New &#8230; ]]></description>
-								<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="51" class="elementor elementor-51" data-elementor-settings="[]">
+
+					<description><![CDATA[Introduction In this article, we will see how to retrieve device info in Android using Xamarin.Forms. Step 1 Open Visual Studio&#160;→Click File → select New → select Project. →Cross-Platform →Blank App →Shared Project →then give your project a name and location and click the “OK” button. Step 2 Right, Click on Solution(App_Name) →Manage NuGet Packages for Solution →Install&#160;Xam.Plugin.DeviceInfo&#160;package. Step 3 We are creating Labels, texts, and font attributes inside the layout. like “ID”, “IDIOM”, “MODEL”, “PLATFORM”, “VERSION”. Step 4 This code is for Deviceinfo Plugin using Id, idiom, model, and platform, version Idioms DeviceIdiom.Phone&#160;— Phone DeviceIdiom.Tablet&#160;— Tablet DeviceIdiom.Desktop&#160;— Desktop DeviceIdiom.TV&#160;—…]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="51" class="elementor elementor-51" data-elementor-settings="[]">
 			<div class="elementor-inner">
 				<div class="elementor-section-wrap">
 							<section class="elementor-element elementor-element-363cda4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="363cda4" data-element_type="section">
@@ -49,7 +114,7 @@
 				<div class="elementor-element elementor-element-5ed76df elementor-widget elementor-widget-image" data-id="5ed76df" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="582" src="./../../../wp-content/uploads/2019/12/device-info-1024x582.png" class="attachment-large size-large" alt="" srcset="./../../../wp-content/uploads/2019/12/device-info-1024x582.png 1024w, ./../../../wp-content/uploads/2019/12/device-info-768x437.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="640" height="364" src="./../../../wp-content/uploads/2019/12/device-info-1024x582.png" class="attachment-large size-large" alt="" srcset="./../../../wp-content/uploads/2019/12/device-info-1024x582.png 1024w, ./../../../wp-content/uploads/2019/12/device-info-768x437.png 768w" sizes="(max-width: 640px) 100vw, 640px" />											</div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-551e09d elementor-widget elementor-widget-text-editor" data-id="551e09d" data-element_type="widget" data-widget_type="text-editor.default">
@@ -129,24 +194,31 @@
 			</div>
 		</div>
 		]]></content:encoded>
-							<wfw:commentRss>./../../../2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/feed/index.html</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>./../../../2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Hello world!</title>
 		<link>./../../../2019/12/28/hello-world/index.html</link>
-				<comments>./../../../2019/12/28/hello-world/index.html#comments</comments>
-				<pubDate>Sat, 28 Dec 2019 10:56:33 +0000</pubDate>
+					<comments>./../../../2019/12/28/hello-world/index.html#comments</comments>
+		
 		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Sat, 28 Dec 2019 10:56:33 +0000</pubDate>
 				<category><![CDATA[Xamarin]]></category>
-
 		<guid isPermaLink="false">./../../../index.html?p=1</guid>
-				<description><![CDATA[Remember the memories of your childhood when you accepted the challenge to solve some Jigsaw Puzzle, Complex Mathematics Problems, Tic-Tac-Toe, Sudoku or Rubik’s cube kinda… ]]></description>
-								<content:encoded><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+
+					<description><![CDATA[Remember the memories of your childhood when you accepted the challenge to solve some Jigsaw Puzzle, Complex Mathematics Problems, Tic-Tac-Toe, Sudoku or Rubik’s cube kinda… ]]></description>
+										<content:encoded><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 <figure class="wp-block-image size-large"><img src="./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-1024x337.png" alt="" class="wp-image-8" srcset="./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-1024x337.png 1024w, ./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-300x99.png 300w, ./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-768x252.png 768w, ./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-1536x505.png 1536w, ./../../../wp-content/uploads/2019/12/Screenshot-from-2019-12-24-22-10-16-2048x673.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 ]]></content:encoded>
-							<wfw:commentRss>./../../../2019/12/28/hello-world/feed/index.html</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-							</item>
+					
+					<wfw:commentRss>./../../../2019/12/28/hello-world/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>
