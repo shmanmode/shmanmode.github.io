@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>The web is our playground</description>
-	<lastBuildDate>Thu, 02 Jul 2020 19:01:10 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 11 Jul 2020 21:14:12 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -83,91 +83,228 @@
 		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
 		<pubDate>Thu, 02 Jul 2020 17:53:53 +0000</pubDate>
 				<category><![CDATA[javascript]]></category>
-		<category><![CDATA[os]]></category>
 		<guid isPermaLink="false">./../index.html?p=193</guid>
 
 					<description><![CDATA[So. Made a new website and want an easy login from Facebook. Facebook has a Javascript SDK and we are going to utilize that for &#8230; ]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="193" class="elementor elementor-193" data-elementor-settings="[]">
-			<div class="elementor-inner">
-				<div class="elementor-section-wrap">
-							<section class="elementor-element elementor-element-3012f6f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3012f6f2" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-14d2a21f elementor-column elementor-col-100 elementor-top-column" data-id="14d2a21f" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-747d69e2 elementor-widget elementor-widget-text-editor" data-id="747d69e2" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:paragraph --></p>
-<p>So. Made a new website and want an easy login from Facebook. Facebook has a Javascript SDK and we are going to utilize that for creating Fb login for our website.</p>
+										<content:encoded><![CDATA[
+<p>So. Made a new website and want an easy login from Facebook. Facebook has a Javascript SDK and we are going to utilize that for creating FB login for our website.</p>
+
+
+
+<p>All References from  : <a href="https://developers.facebook.com/">http</a><a rel="noreferrer noopener" href="https://developers.facebook.com/" target="_blank">s</a><a href="https://developers.facebook.com/" target="_blank" rel="noreferrer noopener">://developers.facebook.com</a></p>
+
+
+
 <div class="wp-block-buttons">
-<p><!-- /wp:button --></p>
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color" href="https://roshan05.github.io/fblogin/" target="_blank" rel="noreferrer noopener"><strong>Try it  &gt;</strong></a></div>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color" href="https://raw.githubusercontent.com/Roshan05/fblogin/master/index.html" target="_blank" rel="noreferrer noopener"><strong>Download Code &gt;</strong></a></div>
 </div>
-<p><!-- /wp:buttons --></p></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-				<section class="elementor-element elementor-element-482e303 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="482e303" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-2a10b12 elementor-column elementor-col-25 elementor-top-column" data-id="2a10b12" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-d71a9f3 elementor-widget elementor-widget-button" data-id="d71a9f3" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="https://developers.facebook.com/docs/facebook-login/android" class="elementor-button-link elementor-button elementor-size-md" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Try it</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-				<div class="elementor-element elementor-element-41c35c4 elementor-column elementor-col-25 elementor-top-column" data-id="41c35c4" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-2367a38 elementor-align-justify elementor-widget elementor-widget-button" data-id="2367a38" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="https://developers.facebook.com/docs/facebook-login/android" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Download code ></span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-				<div class="elementor-element elementor-element-78c00c2 elementor-column elementor-col-25 elementor-top-column" data-id="78c00c2" data-element_type="column">
-			<div class="elementor-column-wrap">
-					<div class="elementor-widget-wrap">
-						</div>
-			</div>
-		</div>
-				<div class="elementor-element elementor-element-34418a1 elementor-column elementor-col-25 elementor-top-column" data-id="34418a1" data-element_type="column">
-			<div class="elementor-column-wrap">
-					<div class="elementor-widget-wrap">
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-						</div>
-			</div>
-		</div>
-		]]></content:encoded>
+
+
+
+<p class="has-text-color has-background has-very-dark-gray-color has-very-light-gray-background-color"><strong>1. Create a facebook App</strong></p>
+
+
+
+<p>You need to create a facebook app for your website and get app ID and access to facebook javascript api.</p>
+
+
+
+<p>Go to :&nbsp;<a href="https://web.archive.org/web/20160415113258mp_/https://developers.facebook.com/apps/" target="_blank" rel="noreferrer noopener">https://developers.facebook.com/apps/</a></p>
+
+
+
+<p>Click on Add new app and choose the website.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="./../wp-content/uploads/2020/07/FB1-1024x576.png" alt="" class="wp-image-218" srcset="./../wp-content/uploads/2020/07/FB1-1024x576.png 1024w, ./../wp-content/uploads/2020/07/FB1-300x169.png 300w, ./../wp-content/uploads/2020/07/FB1-768x432.png 768w, ./../wp-content/uploads/2020/07/FB1.png 1366w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>After Creating an APP, </p>
+
+
+
+<p>1. In Settings &#8211;&gt; Basic you will get an APP ID and APP Secret. </p>
+
+
+
+<p>2. In Settings &#8211;&gt; Advanced you will get an API  Version.</p>
+
+
+
+<p>We need that keep those with you.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="./../wp-content/uploads/2020/07/fb2-2-1024x576.png" alt="" class="wp-image-223" srcset="./../wp-content/uploads/2020/07/fb2-2-1024x576.png 1024w, ./../wp-content/uploads/2020/07/fb2-2-300x169.png 300w, ./../wp-content/uploads/2020/07/fb2-2-768x432.png 768w, ./../wp-content/uploads/2020/07/fb2-2.png 1366w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="./../wp-content/uploads/2020/07/rsz_fb3-1024x223.png" alt="" class="wp-image-224" srcset="./../wp-content/uploads/2020/07/rsz_fb3-1024x223.png 1024w, ./../wp-content/uploads/2020/07/rsz_fb3-300x65.png 300w, ./../wp-content/uploads/2020/07/rsz_fb3-768x168.png 768w, ./../wp-content/uploads/2020/07/rsz_fb3.png 1260w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p class="has-text-color has-background has-very-dark-gray-color has-very-light-gray-background-color"><strong>2. Use Javascript SDK to create login</strong>.</p>
+
+
+
+<pre class="wp-block-code"><code>  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{your-app-id}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{api-version}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)&#91;0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</code></pre>
+
+
+
+<p>Here Put your APP ID and the version you are using. The code given has been created using reference from the Facebook developer&#8217;s website. So now coming to the point. I will show the part of the code that you need to edit.</p>
+
+
+
+<pre class="wp-block-code"><code> function testAPI() {                      
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me?fields=name,email,first_name,last_name,gender,locale', function(response) {
+      console.log('Successful login for: ' + response.name);
+      var string = 'Thanks for logging in, &lt;h2>&lt;strong>' + response.name + '!&lt;/strong>&lt;/h2>' ;
+      string += '&lt;p> Your Email : '+ response.email + '&lt;/p> ';
+      document.getElementById('status').innerHTML = string;  
+    });
+  }</code></pre>
+
+
+
+<p>Here, we make a login call and get a response .</p>
+
+
+
+<p>Specify the things you want to receive in response. Here&nbsp;&nbsp;<span class="has-inline-color has-vivid-cyan-blue-color"><code>'/me?fields=name,email,first_name,last_name,gender,locale'</code></span></p>
+
+
+
+<p>Now, you can access to all those using response._property_.</p>
+
+
+
+<p><span class="has-inline-color has-vivid-red-color">Complete Code- </span></p>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-code"><code>&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;title>Facebook Login JavaScript Example&lt;/title>
+&lt;meta charset="UTF-8">
+&lt;/head>
+&lt;body>
+&lt;script>
+
+function statusChangeCallback(response) { // Called with the results from FB.getLoginStatus().
+    console.log('statusChangeCallback');
+    console.log(response); // The current login status of the person.
+    if (response.status === 'connected') { // Logged into your webpage and Facebook.
+        testAPI();
+    } else { // Not logged into your webpage or we are unable to tell.
+        document.getElementById('status').innerHTML = 'Please log ' +
+            'into this webpage.';
+    }
+}
+
+function checkLoginState() { // Called when a person is finished with the Login Button.
+    FB.getLoginStatus(function(response) { // See the onlogin handler
+        statusChangeCallback(response);
+    });
+}
+
+window.fbAsyncInit = function() {
+    FB.init({
+        appId: '197468851707624',
+        cookie: true, // Enable cookies to allow the server to access the session.
+        xfbml: true, // Parse social plugins on this webpage.
+        version: 'v7.0' // Use this Graph API version for this call.
+    });
+
+    // Now that we've initialized the JavaScript SDK, we call 
+    // FB.getLoginStatus().  This function gets the state of the
+    // person visiting this page and can return one of three states to
+    // the callback you provide.  They can be:
+    //
+    // 1. Logged into your app ('connected')
+    // 2. Logged into Facebook, but not your app ('not_authorized')
+    // 3. Not logged into Facebook and can't tell if they are logged into
+    //    your app or not.
+    //
+    // These three cases are handled in the callback function.
+
+    FB.getLoginStatus(function(response) { // Called after the JS SDK has been initialized.
+        statusChangeCallback(response); // Returns the login status.
+    });
+};
+
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)&#91;0];
+    if (d.getElementById(id)) {
+        return;
+    }
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me?fields=name,email,first_name,last_name,gender,locale', function(response) {
+        console.log('Successful login for: ' + response.name);
+        var string = 'Thanks for logging in, &lt;h2>&lt;strong>' + response.name + '!&lt;/strong>&lt;/h2>';
+        string += '&lt;p> Your Email : ' + response.email + '&lt;/p> ';
+        document.getElementById('status').innerHTML = string;
+    });
+}
+&lt;/script>
+
+
+&lt;!-- The JS SDK Login Button -->
+
+&lt;fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+&lt;/fb:login-button>
+
+&lt;div id="status">
+&lt;/div>
+
+&lt;!-- Load the JS SDK asynchronously -->
+&lt;script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js">&lt;/script>
+&lt;/body>
+&lt;/html></code></pre>
+</div></div>
+
+
+
+<p>If you are having understanding some piece of code. Please comment here, We are here to help you out. </p>
+
+
+
+<p></p>
+]]></content:encoded>
 					
 					<wfw:commentRss>./../2020/07/02/create-facebook-login-for-your-website/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
