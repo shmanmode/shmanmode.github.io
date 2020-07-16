@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>The web is our playground</description>
-	<lastBuildDate>Sun, 05 Jan 2020 19:09:22 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 16 Jul 2020 13:30:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,64 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Integrate Linkedin login in your website</title>
+		<link>./../../../2020/07/16/integrate-linkedin-login-in-your-website/index.html</link>
+					<comments>./../../../2020/07/16/integrate-linkedin-login-in-your-website/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Thu, 16 Jul 2020 13:30:05 +0000</pubDate>
+				<category><![CDATA[Xamarin]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=234</guid>
+
+					<description><![CDATA[So. Made a new website and want an easy login from LinkedIn? We have integrated Facebook login earlier, today we are going to do the &#8230; ]]></description>
+										<content:encoded><![CDATA[
+<p>So. Made a new website and want an easy login from LinkedIn? We have integrated Facebook login earlier, today we are going to do the same with LinkedIn.</p>
+
+
+
+<p>Here is the demo and zip file and link to github repository.</p>
+
+
+
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color">Try it  ></a></div>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color">Download Code ></a></div>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color">Github repo ></a></div>
+</div>
+
+
+
+<p><strong>Step 1</strong>– You need to use the Linkedin API to integrate the Linkedin login into your website. So go to <a rel="noreferrer noopener" href="https://www.linkedin.com/developer/apps" target="_blank">https://www.linkedin.com/developer/apps</a> and login there.</p>
+
+
+
+<p><strong>Step 2</strong>-Create your own new application. Fill up the necessary details in the webpage provided.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="./../../../wp-content/uploads/2020/07/linkdin0-1024x582.png" alt="" class="wp-image-235" srcset="./../../../wp-content/uploads/2020/07/linkdin0-1024x582.png 1024w, ./../../../wp-content/uploads/2020/07/linkdin0-300x171.png 300w, ./../../../wp-content/uploads/2020/07/linkdin0-768x437.png 768w, ./../../../wp-content/uploads/2020/07/linkdin0.png 1309w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>The Linkedin developers page where you need to create application</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="./../../../wp-content/uploads/2020/07/linkdin1-1024x580.png" alt="" class="wp-image-236" srcset="./../../../wp-content/uploads/2020/07/linkdin1-1024x580.png 1024w, ./../../../wp-content/uploads/2020/07/linkdin1-300x170.png 300w, ./../../../wp-content/uploads/2020/07/linkdin1-768x435.png 768w, ./../../../wp-content/uploads/2020/07/linkdin1-1536x871.png 1536w, ./../../../wp-content/uploads/2020/07/linkdin1.png 1863w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/07/16/integrate-linkedin-login-in-your-website/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Xamarin.Essentials: Device Info In Android Using Xamarin.Forms</title>
 		<link>./../../../2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html</link>
 					<comments>./../../../2019/12/28/xamarin-essentials-device-info-in-android-using-xamarin-forms/index.html#respond</comments>
