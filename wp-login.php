@@ -61,7 +61,7 @@ wp_attempt_focus();
 if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 				<p id="backtoblog"><a href="./index.html">
 		&larr; Back to WebTutplus		</a></p>
-			</div>
+		<div class="privacy-policy-page-link"><a class="privacy-policy-link" href="./privacy-policy/index.html">Privacy Policy</a></div>	</div>
 	<script type='text/javascript' src='./wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 <script type='text/javascript' src='./wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript'>

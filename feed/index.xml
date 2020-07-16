@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>The web is our playground</description>
-	<lastBuildDate>Sat, 11 Jul 2020 21:21:47 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 16 Jul 2020 10:33:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -96,11 +96,11 @@
 
 
 <div class="wp-block-buttons">
-<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color" href="https://roshan05.github.io/fblogin/" target="_blank" rel="noreferrer noopener"><strong>Try it  &gt;</strong></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color" href="https://webtutplus.com/demo-Projects/fblogin/" target="_blank" rel="noreferrer noopener"><strong>Try it  &gt;</strong></a></div>
 
 
 
-<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color" href="https://raw.githubusercontent.com/Roshan05/fblogin/master/index.html" target="_blank" rel="noreferrer noopener"><strong>Download Code &gt;</strong></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color" href="https://github.com/shmanmode/demo-Projects/raw/master/fblogin/fblogin.zip" target="_blank" rel="noreferrer noopener"><strong>Download Code &gt;</strong></a></div>
 </div>
 
 
