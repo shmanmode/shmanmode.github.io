@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Google Services &#8211; WebTutplus</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>The web is our playground</description>
+	<lastBuildDate>Sun, 19 Jul 2020 12:08:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2019/12/cropped-red-icon-32x32.png</url>
+	<title>Google Services &#8211; WebTutplus</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Know weather information by php and weather api</title>
+		<link>./../../../2020/07/19/know-weather-information-by-php-and-weather-api/index.html</link>
+					<comments>./../../../2020/07/19/know-weather-information-by-php-and-weather-api/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[sh.manmode@gmail.com]]></dc:creator>
+		<pubDate>Sun, 19 Jul 2020 11:51:28 +0000</pubDate>
+				<category><![CDATA[Google Maps]]></category>
+		<category><![CDATA[Google Services]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=239</guid>
+
+					<description><![CDATA[Hi, You have been waiting a lot. We are back with Google Maps, but we have a good add-on this time. Get weather information at &#8230; ]]></description>
+										<content:encoded><![CDATA[
+<p>Hi, You have been waiting a lot. We are back with Google Maps, but we have a good add-on this time. Get weather information at your current location by sharing location from browser or at any other place. This is pretty cool, you can get the weather at any location in the world and it too precise to 1 Hr. </p>
+
+
+
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color" href="http://webtutplus.com/demo-Projects/weather.zip" target="_blank" rel="noreferrer noopener">Download Code &gt;</a></div>
+</div>
+
+
+
+<p>We are going to use google maps API and weather API from <a href="https://openweathermap.org/" target="_blank" rel="noreferrer noopener">https://openweathermap.org/</a></p>
+
+
+
+<p>First we will build a interface to retrieve the current location from the browser and then pan to that location on google maps and alternatively make a search box which can search through location and pan to selected location on google map. Keep in mind our sole aim here is to get the latitude and longitude co-ordinates of the location selected.</p>
+
+
+
+<p><strong>1. Creating a Get location from Browser</strong></p>
+
+
+
+<pre class="wp-block-code"><code>&lt;script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+	x.innerHTML = " &lt;br>Location : (" + position.coords.latitude + " , " +  + position.coords.longitude + " )";		
+	lat =  position.coords.latitude;
+    lon = position.coords.longitude;
+
+    //show location on map
+    var loc = new google.maps.LatLng(position.coords.latitude,position.coords.longitude) ;
+    var marker = new google.maps.Marker({
+        map: map,
+        position: loc
+      });
+
+    markers.push(marker);
+	var bounds = new google.maps.LatLngBounds();
+    bounds.extend(loc);
+    map.fitBounds(bounds);
+    map.setZoom(7);
+    showweather();
+} 
+&lt;/script></code></pre>
+
+
+
+<p>It is really easy to understand the above part of code. The function&nbsp; getLocation() is the real player. It asks the browser to get the current location. And secondly function&nbsp; showPosition(position)&nbsp; will display the received latitude and longitude on the google map and a marker for the position. It will also pan to that location. </p>
+
+
+
+<p><strong>2. Getting Location from a search box</strong></p>
+
+
+
+<pre class="wp-block-code"><code>&lt;script>
+
+var map;
+var markers = &#91;];
+var lat,lon,appid;
+function initialize() {
+
+
+  map = new google.maps.Map(document.getElementById('map-canvas'), {
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+  var defaultBounds = new google.maps.LatLngBounds(
+      new google.maps.LatLng(-33.8902, 151.1759),
+      new google.maps.LatLng(-33.8474, 151.2631));
+  map.fitBounds(defaultBounds);
+
+  // Create the search box and link it to the UI element.
+  var input = (document.getElementById('pac-input'));
+  
+  var searchBox = new google.maps.places.SearchBox((input));
+
+  // Listen for the event fired when the user selects an item from the
+  // pick list. Retrieve the matching places for that item.
+  google.maps.event.addListener(searchBox, 'places_changed', function() {
+    var places = searchBox.getPlaces();
+
+    if (places.length == 0) {
+      return;
+    }
+    for (var i = 0, marker; marker = markers&#91;i]; i++) {
+      marker.setMap(null);
+    }
+
+    // For each place, get the icon, place name, and location.
+    markers = &#91;];
+    var bounds = new google.maps.LatLngBounds();
+    for (var i = 0, place; place = places&#91;i]; i++) {
+      var image = {
+        url: place.icon,
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(25, 25)
+      };
+
+      // Create a marker for each place.
+      var marker = new google.maps.Marker({
+        map: map,
+        icon: image,
+        title: place.name,
+        position: place.geometry.location
+      });
+
+    markers.push(marker);
+		var x = document.getElementById("demo");
+       x.innerHTML = " &lt;br>Location : " + place.geometry.location ;	
+       lat = place.geometry.location.lat();
+       lon = place.geometry.location.lng();
+
+
+      bounds.extend(place.geometry.location);
+       map.panTo(place.geometry.location);
+    
+    }
+
+    map.fitBounds(bounds);
+    map.setZoom(7);
+    showweather();
+   
+  });
+
+  // Bias the SearchBox results towards places that are within the bounds of the
+  // current map's viewport.
+  google.maps.event.addListener(map, 'bounds_changed', function() {
+    var bounds = map.getBounds();
+    searchBox.setBounds(bounds);
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+&lt;/script></code></pre>
+
+
+
+<p>This is just the javascript code for what we aim to do. The html code for the same is given below. Just keep looking.</p>
+
+
+
+<p>Understanding the code &nbsp;:</p>
+
+
+
+<pre class="wp-block-code"><code>var input1 = (document.getElementById(‘pac-input1’));</code></pre>
+
+
+
+<p>You need to create a input element in your body to place this input field.</p>
+
+
+
+<p><strong>&lt;input id=”pac-input1″ class=”control” type=”text” placeholder=”From -&gt;”&gt;</strong></p>
+
+
+
+<pre class="wp-block-code"><code>var searchBox1 = new google.maps.places.SearchBox((input1));</code></pre>
+
+
+
+<p>This is place where we are creating a search box and below it we are creating a listener which will listen to inputs given by user to the search box. On starting to enter some text into the box, it will search for relevant places and get icon, name and location of the place and then On selecting it, it will create a marker for that place. We are also storing those markers.</p>
+
+
+
+<p style="color:#0a73af" class="has-text-color">So, Now We have the co-ordinates for the location we want weather details for. Let move forward.</p>
+
+
+
+<p>We are going to use a weather api. The API is provided by <a href="https://openweathermap.org/" target="_blank" rel="noreferrer noopener">https://openweathermap.org/</a> . We are here using the free version and listen to me if are doing some personal and not commercial stuff, free plan is enough for you.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="./../../../wp-content/uploads/2020/07/weather-1024x582.png" alt="" class="wp-image-240" srcset="./../../../wp-content/uploads/2020/07/weather-1024x582.png 1024w, ./../../../wp-content/uploads/2020/07/weather-300x171.png 300w, ./../../../wp-content/uploads/2020/07/weather-768x437.png 768w, ./../../../wp-content/uploads/2020/07/weather.png 1309w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>This service provides a restAPI.</p>
+
+
+
+<p class="has-text-color has-luminous-vivid-orange-color"><strong>GET Request to URI :&nbsp;http://api.openweathermap.org/data/2.5/weather?lat=””&amp;lon=””</strong>&amp;appid=&#8221;&#8221;</p>
+
+
+
+<p>So we are going to use a ajax call to send a get request to above URI and pass variables lat and lon in get request.</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;script type="text/javascript">
+	function showweather()
+	{	
+		$.ajax({
+					url: "http://api.openweathermap.org/data/2.5/weather",
+					type: 'GET',
+					data: {"lat":lat,
+				           "lon":lon,
+				           "appid":'abd24802c4da9c011e2b2cbb6ec721ec'},
+					success: function (result) {
+						var data =  JSON.parse(JSON.stringify(result));
+						var y = document.getElementById("weather");
+						var str = "&lt;h3>&lt;strong>Weather at &lt;/strong> "+data&#91;"name"]+"&lt;/h3>&lt;br>";
+						str += "&lt;img src='http://openweathermap.org/img/w/"+data&#91;"weather"]&#91;0]&#91;"icon"]+".png'>&lt;/img>";
+						str += "&lt;strong>"+data&#91;"weather"]&#91;0]&#91;"main"]+"&lt;/strong>  "+data&#91;"weather"]&#91;0]&#91;"description"]+"&lt;br>";
+						str += "&lt;table class='table table-striped'>";
+						str += "&lt;tr>&lt;td>&lt;strong>Temperature   &lt;/strong>  &lt;/td>&lt;td>"+(parseInt(data&#91;"main"]&#91;"temp"])-273.15)+" Celcius&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Pressure    &lt;/strong>  &lt;/td>&lt;td>"+data&#91;"main"]&#91;"pressure"]+" hPa&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Humidity   &lt;/strong> &lt;/td>&lt;td> "+data&#91;"main"]&#91;"humidity"]+" %&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Temp_min   &lt;/strong> &lt;/td>&lt;td> "+(parseInt(data&#91;"main"]&#91;"temp_min"])-273.15)+" Celcius&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Temp_max   &lt;/strong>  &lt;/td>&lt;td>"+(parseInt(data&#91;"main"]&#91;"temp_max"])-273.15)+" Celcius&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Sea level   &lt;/strong> &lt;/td>&lt;td> "+data&#91;"main"]&#91;"sea_level"]+" hPa&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Ground level   &lt;/strong>  &lt;/td>&lt;td>"+data&#91;"main"]&#91;"grnd_level"]+" hPa&lt;br>&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Wind Speed   &lt;/strong> &lt;/td>&lt;td> "+data&#91;"wind"]&#91;"speed"]+" hPa&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Wind Degrees   &lt;/strong> &lt;/td>&lt;td> "+data&#91;"wind"]&#91;"deg"]+" hPa&lt;/td>&lt;/tr>&lt;/table>";
+			
+						y.innerHTML = str;
+					}
+				});
+	}
+&lt;/script></code></pre>
+
+
+
+<p>On Success, we have the parse the json that we received and we are taking contents from that json to put on a display in already created weather element in html. Look below for the json format of the responce.</p>
+
+
+
+<pre class="wp-block-code"><code>{
+    "coord": {
+        "lon": 77.7,
+        "lat": 12.98
+    },
+    "weather": &#91;
+        {
+            "id": 210,
+            "main": "Thunderstorm",
+            "description": "light thunderstorm",
+            "icon": "11d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 300.91,
+        "feels_like": 304.51,
+        "temp_min": 299.82,
+        "temp_max": 302.04,
+        "pressure": 1008,
+        "humidity": 74
+    },
+    "visibility": 6000,
+    "wind": {
+        "speed": 2.1,
+        "deg": 330
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1595158497,
+    "sys": {
+        "type": 1,
+        "id": 9205,
+        "country": "IN",
+        "sunrise": 1595118693,
+        "sunset": 1595164744
+    },
+    "timezone": 19800,
+    "id": 1277333,
+    "name": "Bengaluru",
+    "cod": 200
+}</code></pre>
+
+
+
+<p>Reference : <a href="https://openweathermap.org/current">https://openweathermap.org/current</a></p>
+
+
+
+<p class="has-text-color has-luminous-vivid-orange-color">I think thats it for today. And yes the complete code is here.</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    &lt;meta charset="utf-8">
+     &lt;link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/css/bootstrap.css" rel="stylesheet" media="screen">
+    &lt;!-- Bootstrap CSS -->
+    &lt;link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
+    &lt;title>Weather| Webtut+&lt;/title>
+    &lt;script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true&amp;libraries=places">&lt;/script>
+     &lt;script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">&lt;/script>
+    &lt;style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .controls {
+        margin-top: 16px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        /*margin-left: 12px;*/
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 200px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+    &lt;/style>
+&lt;script>
+
+var map;
+var markers = &#91;];
+var lat,lon,appid;
+function initialize() {
+
+  map = new google.maps.Map(document.getElementById('map-canvas'), {
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+  var defaultBounds = new google.maps.LatLngBounds(
+      new google.maps.LatLng(-33.8902, 151.1759),
+      new google.maps.LatLng(-33.8474, 151.2631));
+  map.fitBounds(defaultBounds);
+
+  // Create the search box and link it to the UI element.
+  var input = (document.getElementById('pac-input'));
+  
+  var searchBox = new google.maps.places.SearchBox((input));
+
+  // Listen for the event fired when the user selects an item from the
+  // pick list. Retrieve the matching places for that item.
+  google.maps.event.addListener(searchBox, 'places_changed', function() {
+    var places = searchBox.getPlaces();
+
+    if (places.length == 0) {
+      return;
+    }
+    for (var i = 0, marker; marker = markers&#91;i]; i++) {
+      marker.setMap(null);
+    }
+
+    // For each place, get the icon, place name, and location.
+    markers = &#91;];
+    var bounds = new google.maps.LatLngBounds();
+    for (var i = 0, place; place = places&#91;i]; i++) {
+      var image = {
+        url: place.icon,
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(25, 25)
+      };
+
+      // Create a marker for each place.
+      var marker = new google.maps.Marker({
+        map: map,
+        icon: image,
+        title: place.name,
+        position: place.geometry.location
+      });
+
+    markers.push(marker);
+		var x = document.getElementById("demo");
+       x.innerHTML = " &lt;br>Location : " + place.geometry.location ;	
+       lat = place.geometry.location.lat();
+       lon = place.geometry.location.lng();
+
+      bounds.extend(place.geometry.location);
+       map.panTo(place.geometry.location);
+    
+    }
+
+    map.fitBounds(bounds);
+    map.setZoom(7);
+    showweather();
+   
+  });
+
+  // Bias the SearchBox results towards places that are within the bounds of the
+  // current map's viewport.
+  google.maps.event.addListener(map, 'bounds_changed', function() {
+    var bounds = map.getBounds();
+    searchBox.setBounds(bounds);
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+&lt;/script>
+&lt;/head>
+&lt;body>
+
+&lt;h1 class="text-center">Know weather at your location&lt;/h1>
+&lt;div  class="col-sm-5" id="map-canvas">&lt;/div>
+&lt;div  class="col-sm-7" >
+&lt;button onclick="getLocation()" class="btn btn-info">Get your Location &lt;/button>  &lt;strong> OR&lt;/strong>
+&lt;span>Enter it manually here&lt;/span>
+&lt;input id="pac-input" class="control" type="text" placeholder="Enter Location">
+&lt;button class="btn btn-warning" onclick="showweather()">Get Weather&lt;/button>
+&lt;p id="demo">&lt;/p>
+&lt;p id="weather">&lt;/p>
+&lt;/div>
+&lt;script type="text/javascript">
+	function showweather()
+	{	
+		$.ajax({
+					url: "http://api.openweathermap.org/data/2.5/weather",
+					type: 'GET',
+					data: {"lat":lat,
+				           "lon":lon,
+				           "appid":'abd24802c4da9c011e2b2cbb6ec721ec'},
+					success: function (result) {
+						var data =  JSON.parse(JSON.stringify(result));
+						var y = document.getElementById("weather");
+						var str = "&lt;h3>&lt;strong>Weather at &lt;/strong> "+data&#91;"name"]+"&lt;/h3>&lt;br>";
+						str += "&lt;img src='http://openweathermap.org/img/w/"+data&#91;"weather"]&#91;0]&#91;"icon"]+".png'>&lt;/img>";
+						str += "&lt;strong>"+data&#91;"weather"]&#91;0]&#91;"main"]+"&lt;/strong>  "+data&#91;"weather"]&#91;0]&#91;"description"]+"&lt;br>";
+						str += "&lt;table class='table table-striped'>";
+						str += "&lt;tr>&lt;td>&lt;strong>Temperature   &lt;/strong>  &lt;/td>&lt;td>"+(parseInt(data&#91;"main"]&#91;"temp"])-273.15)+" Celcius&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Pressure    &lt;/strong>  &lt;/td>&lt;td>"+data&#91;"main"]&#91;"pressure"]+" hPa&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Humidity   &lt;/strong> &lt;/td>&lt;td> "+data&#91;"main"]&#91;"humidity"]+" %&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Temp_min   &lt;/strong> &lt;/td>&lt;td> "+(parseInt(data&#91;"main"]&#91;"temp_min"])-273.15)+" Celcius&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Temp_max   &lt;/strong>  &lt;/td>&lt;td>"+(parseInt(data&#91;"main"]&#91;"temp_max"])-273.15)+" Celcius&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Sea level   &lt;/strong> &lt;/td>&lt;td> "+data&#91;"main"]&#91;"sea_level"]+" hPa&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Ground level   &lt;/strong>  &lt;/td>&lt;td>"+data&#91;"main"]&#91;"grnd_level"]+" hPa&lt;br>&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Wind Speed   &lt;/strong> &lt;/td>&lt;td> "+data&#91;"wind"]&#91;"speed"]+" hPa&lt;/td>&lt;/tr>";
+						str += "&lt;tr>&lt;td>&lt;strong>Wind Degrees   &lt;/strong> &lt;/td>&lt;td> "+data&#91;"wind"]&#91;"deg"]+" hPa&lt;/td>&lt;/tr>&lt;/table>";
+			
+						y.innerHTML = str;
+					}
+				});
+	}
+&lt;/script>
+
+&lt;script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+	x.innerHTML = " &lt;br>Location : (" + position.coords.latitude + " , " +  + position.coords.longitude + " )";		
+	lat =  position.coords.latitude;
+    lon = position.coords.longitude;
+
+    //show location on map
+    var loc = new google.maps.LatLng(position.coords.latitude,position.coords.longitude) ;
+    var marker = new google.maps.Marker({
+        map: map,
+        position: loc
+      });
+
+    markers.push(marker);
+	var bounds = new google.maps.LatLngBounds();
+    bounds.extend(loc);
+    map.fitBounds(bounds);
+    map.setZoom(7);
+    showweather();
+} 
+&lt;/script>
+&lt;/body>
+&lt;/html></code></pre>
+
+
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/07/19/know-weather-information-by-php-and-weather-api/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
